@@ -17,6 +17,8 @@ use app\index\model\Logo_img;
 use app\index\model\Logo_text;
 use app\index\model\Shopping_cart;
 use think\Controller;
+use think\Cookie;
+use think\Exception;
 use think\Session;
 use app\index\model\Ordinary_users;
 
@@ -86,8 +88,18 @@ class Widgets extends Controller
     {
         $model = new Logo_img();
         $cart = new Shopping_cart();
+        try{
+            //未登陆,检测cookie
+            if(!$cart->where(['user_id'=>Session::get('user')])->select())
+            {
+                $num = count(Cookie::get('cartAry'));
+            }else{
+                $num = count($cart->where(['user_id'=>Session::get('user')])->select());
+            }
+        }catch (Exception $e){
+        }
         $this->assign('sum',[
-            'num'=>count($cart->where(['user_id'=>Session::get('user')])->select())
+            'num'=>$num
         ]);
         $this->assign('img',$model->get(['Id'=>1]));
         return $this->fetch('widget/retrieval');

@@ -47,7 +47,7 @@ class Shopping extends Controller
         //未登录时
         if(!$this->isLogin())
         {
-            //cookie购物车
+            //cookie购物车,保存七天
             if(!Cookie::get('cartAry')) //没有添加过
             {
                 $data=[
@@ -57,8 +57,8 @@ class Shopping extends Controller
                         'sum'=>1
                     ],
                 ];
-                //设置cookie
-                Cookie::set('cartAry',$data);
+                //设置cookie保存7天
+                Cookie::set('cartAry',$data,604800);
                 echo json_encode([
                     'state'=>200,
                     'count'=>count(Cookie::get('cartAry')),
@@ -74,7 +74,7 @@ class Shopping extends Controller
                 if($item['books_id']==$id)  //如果该商品已在购物车中
                 {
                     $data[$i]['sum'] += 1;
-                    Cookie::set('cartAry',$data);
+                    Cookie::set('cartAry',$data,604800);
                     echo json_encode([
                         'state'=>200,
                         'count'=>count(Cookie::get('cartAry')),
@@ -91,8 +91,8 @@ class Shopping extends Controller
                 'create_time'=>time(),
                 'sum'=>1
             ];
-            //设置cookie
-            Cookie::set('cartAry',$data);
+            //设置cookie,保存七天
+            Cookie::set('cartAry',$data,604800);
             echo json_encode([
                 'state'=>200,
                 'count'=>count(Cookie::get('cartAry')),
