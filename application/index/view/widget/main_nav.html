@@ -37,24 +37,28 @@
 </nav>
 
 <nav class="bg-secondary fixed-bottom hidden-lg">
-    <div style="height: 60px;" class="text-white container d-inline-flex justify-content-between justify-content-center mt-2 ">
-        <div class="flex-btn text-center">
+    <div style="height: 60px;" class="text-white container d-inline-flex
+     justify-content-between justify-content-center mt-2 ">
+        <div class="flex-btn align-self-center">
             <a href="/"><i class="fa fa-home" style="font-size:30px;color:white"></i></a>
             <p>首页</p>
         </div>
-        <div class="flex-btn">
+        <div class="flex-btn align-self-center">
             <a href="/"><i class="fa fa-thumbs-up" style="font-size:30px;color:white"></i></a>
             <p>热销</p>
         </div>
-        <div class="flex-btn">
+        <div class="flex-btn align-self-center">
             <a href="/"><i class="fa fa-heartbeat" style="font-size:30px;color:white"></i></a>
             <p>最新</p>
         </div>
-        <div class="flex-btn">
-            <a href="/"><i class="fa fa-file-text" style="font-size:30px;color:white"></i></a>
-            <p>订单</p>
+        <div class="flex-btn align-self-center">
+            <a href="{:url('index/Shopping/ShoppingCart')}">
+                <i class="fa fa-cart-plus" style="font-size:30px;color:white"></i>
+                <span class="badge text-danger sumCart">{$sum.num == 0 ? '':$sum.num}</span>
+            </a>
+            <p>购物车</p>
         </div>
-        <div class="flex-btn">
+        <div class="flex-btn align-self-center">
             <a href="/"><i class="fa fa-user-circle-o" style="font-size:30px;color:white"></i></a>
             <p>我的</p>
         </div>

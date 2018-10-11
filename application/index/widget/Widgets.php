@@ -27,6 +27,20 @@ class Widgets extends Controller
     public function main_nav()   //主菜单
     {
         $model = new Book_class();
+        $cart = new Shopping_cart();
+        try{
+            //未登陆,检测cookie
+            if(!$cart->where(['user_id'=>Session::get('user')])->select())
+            {
+                $num = count(Cookie::get('cartAry'));
+            }else{
+                $num = count($cart->where(['user_id'=>Session::get('user')])->select());
+            }
+        }catch (Exception $e){
+        }
+        $this->assign('sum',[
+            'num'=>$num
+        ]);
         $rel = $model->limit(10)->order('createtime','desc')->select();
         $this->assign('data',$rel);
         return $this->fetch('widget/main_nav');

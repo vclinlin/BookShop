@@ -19,7 +19,7 @@ use think\Session;
 class Shopping extends Controller
 {
     protected $beforeActionList = [
-        'checklogin'  =>  ['except'=>'addshoppingcart'],
+        'checklogin'  =>  ['except'=>'addshoppingcart,shoppingcart'],
     ];
     public function checkLogin()  //权限控制(必须登录)
     {
@@ -145,6 +145,11 @@ class Shopping extends Controller
             'msg'=>'已存在购物车,数量加1'
         ]);
         return;
+    }
+
+    public function ShoppingCart()
+    {
+        return $this->fetch();
     }
     public function addOrder($id)  //添加订单,立即购买页面
     {
