@@ -1,0 +1,8 @@
+.img-fluids{
+    width: 100%;
+    overflow:hidden
+}
+.img-fluids img{
+    width: 100%;
+    height: auto;
+}

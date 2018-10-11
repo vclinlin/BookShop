@@ -1,0 +1,155 @@
+---------------------------------------------------------------
+[ 2018-10-05T20:24:13+08:00 ] 127.0.0.1 GET /
+[ info ] www.shops.com/ [运行时间：1.008111s][吞吐率：0.99req/s] [内存消耗：3,606.13kb] [文件加载：64]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.shops.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.thinkshops.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->head_nav[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\head_nav.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->retrieval[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\retrieval.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->main_nav[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\main_nav.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->hot_images[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\hot_images.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\MobileWidgets->MobileClass[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\MobileWidgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\mobilewidgets\mobileclass.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->newBook[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\newbook.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Rankings[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\rankings.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->about[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\about.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000807s ] mysql:host=127.0.0.1;port=3306;dbname=bookstore;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ordinary_users` [ RunTime:0.021268s ]
+[ sql ] [ SQL ] SELECT * FROM `ordinary_users` WHERE  `userid` IS NULL  AND `pass` IS NULL  AND `state` = 0 LIMIT 1 [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_class` [ RunTime:0.019803s ]
+[ sql ] [ SQL ] SELECT * FROM `book_class` ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `books` [ RunTime:0.018837s ]
+[ sql ] [ SQL ] SELECT * FROM `books` ORDER BY `s_time`  desc LIMIT 6 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `books` ORDER BY `sales`  desc LIMIT 6 [ RunTime:0.000921s ]
+---------------------------------------------------------------
+[ 2018-10-05T20:35:17+08:00 ] 127.0.0.1 GET /
+[ info ] www.shops.com/ [运行时间：1.122538s][吞吐率：0.89req/s] [内存消耗：3,606.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.shops.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.thinkshops.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=kpe2abk17c414cr0f4027c23e8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->head_nav[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\head_nav.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->retrieval[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\retrieval.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->main_nav[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\main_nav.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->hot_images[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\hot_images.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\MobileWidgets->MobileClass[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\MobileWidgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\mobilewidgets\mobileclass.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->newBook[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\newbook.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Rankings[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\rankings.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->about[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\about.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000715s ] mysql:host=127.0.0.1;port=3306;dbname=bookstore;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ordinary_users` [ RunTime:0.021473s ]
+[ sql ] [ SQL ] SELECT * FROM `ordinary_users` WHERE  `userid` IS NULL  AND `pass` IS NULL  AND `state` = 0 LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_class` [ RunTime:0.018866s ]
+[ sql ] [ SQL ] SELECT * FROM `book_class` ORDER BY `createtime`  desc LIMIT 10 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `books` [ RunTime:0.033802s ]
+[ sql ] [ SQL ] SELECT * FROM `books` ORDER BY `s_time`  desc LIMIT 6 [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `books` ORDER BY `sales`  desc LIMIT 6 [ RunTime:0.000732s ]

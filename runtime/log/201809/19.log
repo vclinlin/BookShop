@@ -1,0 +1,35 @@
+---------------------------------------------------------------
+[ 2018-09-19T11:24:26+08:00 ] 127.0.0.1 GET /
+[ info ] www.shops.com/ [运行时间：0.653305s][吞吐率：1.53req/s] [内存消耗：2,118.95kb] [文件加载：46]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.shops.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->head_nav[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\head_nav.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->retrieval[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\retrieval.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

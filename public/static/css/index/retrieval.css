@@ -1,0 +1,22 @@
+#ret_navs
+{
+    display: none;
+}
+.border-lg{
+    border-radius: 15px;
+    border: #dae0e5 solid 1px;
+}
+@media screen and (max-width:1024px)
+{
+    #ret_nav
+    {
+        display: none;
+    }
+    #ret_navs
+    {
+        display: block;
+    }
+    .border-lg{
+        border:none;
+    }
+}

@@ -1,0 +1,3562 @@
+---------------------------------------------------------------
+[ 2018-06-07T00:09:29+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.063224s][吞吐率：15.82req/s] [内存消耗：1,717.56kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T00:19:29+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.050631s][吞吐率：19.75req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T00:29:29+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.055856s][吞吐率：17.90req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T00:39:29+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.053534s][吞吐率：18.68req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T00:49:29+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027100s][吞吐率：36.90req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T00:59:29+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.028366s][吞吐率：35.25req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T01:09:29+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023951s][吞吐率：41.75req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T01:19:29+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022485s][吞吐率：44.47req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T01:29:29+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.032218s][吞吐率：31.04req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T01:39:29+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.029611s][吞吐率：33.77req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T01:49:30+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022784s][吞吐率：43.89req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T01:59:30+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022762s][吞吐率：43.93req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T02:09:30+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021993s][吞吐率：45.47req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T02:19:30+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020521s][吞吐率：48.73req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T02:29:30+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.025079s][吞吐率：39.87req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T02:39:30+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024353s][吞吐率：41.06req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T02:49:30+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024175s][吞吐率：41.37req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T02:59:30+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024511s][吞吐率：40.80req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T03:04:09+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022186s][吞吐率：45.07req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T03:04:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027631s][吞吐率：36.19req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T03:05:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020321s][吞吐率：49.21req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T03:15:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020527s][吞吐率：48.72req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T03:25:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019461s][吞吐率：51.38req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T03:35:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019339s][吞吐率：51.71req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T03:45:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020243s][吞吐率：49.40req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T03:55:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020711s][吞吐率：48.28req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T04:05:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020142s][吞吐率：49.65req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T04:15:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018866s][吞吐率：53.01req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T04:25:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019286s][吞吐率：51.85req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T04:35:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020868s][吞吐率：47.92req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T04:45:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021794s][吞吐率：45.88req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T04:55:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019427s][吞吐率：51.48req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T05:05:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020413s][吞吐率：48.99req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T05:15:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018992s][吞吐率：52.65req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T05:25:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018802s][吞吐率：53.19req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T05:35:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019933s][吞吐率：50.17req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T05:45:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018936s][吞吐率：52.81req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T05:55:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020217s][吞吐率：49.46req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T06:05:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017835s][吞吐率：56.07req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T06:15:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020327s][吞吐率：49.20req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T06:25:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022066s][吞吐率：45.32req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T06:35:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019203s][吞吐率：52.08req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T06:45:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020685s][吞吐率：48.34req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T06:55:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019008s][吞吐率：52.61req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T07:05:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019922s][吞吐率：50.20req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T07:15:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020058s][吞吐率：49.86req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T07:25:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018754s][吞吐率：53.32req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T07:35:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019925s][吞吐率：50.19req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T07:45:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018410s][吞吐率：54.32req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T07:55:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019675s][吞吐率：50.83req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T08:05:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018740s][吞吐率：53.36req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T08:15:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019885s][吞吐率：50.29req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T08:25:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020128s][吞吐率：49.68req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T08:35:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018968s][吞吐率：52.72req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T08:45:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019031s][吞吐率：52.55req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T08:55:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018539s][吞吐率：53.94req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T09:05:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018853s][吞吐率：53.04req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T09:15:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018549s][吞吐率：53.91req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T09:25:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020012s][吞吐率：49.97req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T09:35:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020147s][吞吐率：49.64req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T09:45:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018728s][吞吐率：53.40req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T09:55:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019656s][吞吐率：50.87req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T10:05:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018883s][吞吐率：52.96req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T10:15:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018760s][吞吐率：53.31req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T10:25:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018523s][吞吐率：53.99req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T10:35:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018291s][吞吐率：54.67req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T10:45:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019446s][吞吐率：51.42req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T10:55:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021296s][吞吐率：46.96req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T11:05:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020268s][吞吐率：49.34req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T11:15:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020432s][吞吐率：48.94req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T11:25:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019341s][吞吐率：51.70req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T11:35:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019734s][吞吐率：50.67req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T11:45:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019937s][吞吐率：50.16req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T11:55:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020222s][吞吐率：49.45req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T12:05:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018991s][吞吐率：52.66req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T12:15:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019732s][吞吐率：50.68req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T12:25:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020684s][吞吐率：48.35req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T12:35:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019556s][吞吐率：51.14req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T12:45:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019578s][吞吐率：51.08req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T12:55:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019404s][吞吐率：51.54req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T13:05:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.025205s][吞吐率：39.67req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T13:06:16+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021674s][吞吐率：46.14req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T13:09:08+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027324s][吞吐率：36.60req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T13:09:11+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023976s][吞吐率：41.71req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T13:09:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020261s][吞吐率：49.36req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T13:10:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.036473s][吞吐率：27.42req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T13:20:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020610s][吞吐率：48.52req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T13:30:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020236s][吞吐率：49.42req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T13:40:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019629s][吞吐率：50.95req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T13:50:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021394s][吞吐率：46.74req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T14:00:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020571s][吞吐率：48.61req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T14:10:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020405s][吞吐率：49.01req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T14:20:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.026256s][吞吐率：38.09req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T14:30:26+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022817s][吞吐率：43.83req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T14:40:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.033406s][吞吐率：29.93req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T14:50:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020539s][吞吐率：48.69req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T15:00:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.033901s][吞吐率：29.50req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T15:10:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021341s][吞吐率：46.86req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T15:20:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.032995s][吞吐率：30.31req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T15:30:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021307s][吞吐率：46.93req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T15:40:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020077s][吞吐率：49.81req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T15:50:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.030778s][吞吐率：32.49req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T16:00:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020457s][吞吐率：48.88req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T16:10:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023614s][吞吐率：42.35req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T16:20:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.031969s][吞吐率：31.28req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T16:30:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.030011s][吞吐率：33.32req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T16:40:27+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022565s][吞吐率：44.32req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T16:46:35+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.035478s][吞吐率：28.19req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T16:46:50+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021272s][吞吐率：47.01req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T16:47:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021617s][吞吐率：46.26req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T16:57:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021097s][吞吐率：47.40req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T17:07:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.033427s][吞吐率：29.92req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T17:17:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023623s][吞吐率：42.33req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T17:27:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027046s][吞吐率：36.97req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T17:37:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022141s][吞吐率：45.17req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T17:47:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022664s][吞吐率：44.12req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T17:57:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.030861s][吞吐率：32.40req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T18:07:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023038s][吞吐率：43.41req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T18:16:29+08:00 ] 192.168.3.16 GET /
+[ info ] 192.168.3.15/ [运行时间：0.363147s][吞吐率：2.75req/s] [内存消耗：2,120.69kb] [文件加载：46]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.5 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/sharpp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.3.15/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'advanced-frontend=clh3815ks9a2ss7e3c0sj3lbbc; _csrf-frontend=1267f45910451c0da5f64d05c946dee1312189aae539a14b82944dd31d515184a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Xcy3UkhqaOD8D4S_WPJzoMfbjrUf-O4P%22%3B%7D; PHPSESSID=2kcr90re5ee9rhalidehmfhk2d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->head_nav[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\head_nav.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->retrieval[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\retrieval.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T18:16:33+08:00 ] 192.168.3.16 GET /
+[ info ] 192.168.3.15/ [运行时间：0.023101s][吞吐率：43.29req/s] [内存消耗：2,121.28kb] [文件加载：46]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.5 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.3.15/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'advanced-frontend=clh3815ks9a2ss7e3c0sj3lbbc; _csrf-frontend=1267f45910451c0da5f64d05c946dee1312189aae539a14b82944dd31d515184a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Xcy3UkhqaOD8D4S_WPJzoMfbjrUf-O4P%22%3B%7D; PHPSESSID=2kcr90re5ee9rhalidehmfhk2d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->head_nav[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\head_nav.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->retrieval[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\retrieval.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T18:16:47+08:00 ] 192.168.3.16 GET /admin
+[ info ] 192.168.3.15/admin [运行时间：0.019872s][吞吐率：50.32req/s] [内存消耗：1,720.59kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.5 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'advanced-frontend=clh3815ks9a2ss7e3c0sj3lbbc; _csrf-frontend=1267f45910451c0da5f64d05c946dee1312189aae539a14b82944dd31d515184a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Xcy3UkhqaOD8D4S_WPJzoMfbjrUf-O4P%22%3B%7D; PHPSESSID=2kcr90re5ee9rhalidehmfhk2d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T18:17:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018932s][吞吐率：52.82req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T18:27:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020074s][吞吐率：49.82req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T18:37:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022473s][吞吐率：44.50req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T18:47:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020244s][吞吐率：49.40req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T18:55:29+08:00 ] 192.168.3.16 GET /1001Home
+[ info ] 192.168.3.15/1001Home [运行时间：0.019964s][吞吐率：50.09req/s] [内存消耗：1,720.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '1001Home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=clh3815ks9a2ss7e3c0sj3lbbc; _csrf-frontend=1267f45910451c0da5f64d05c946dee1312189aae539a14b82944dd31d515184a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Xcy3UkhqaOD8D4S_WPJzoMfbjrUf-O4P%22%3B%7D; PHPSESSID=2kcr90re5ee9rhalidehmfhk2d',
+  'q-ua2' => 'QV=3&PL=ADR&PR=QB&PP=com.tencent.mtt&PPVN=8.5.0.4221&TBSVC=43100&CO=BK&COVC=038520&PB=GE&VE=GA&DE=PHONE&CHID=70124&LCID=10385&MO= MHA-AL00 &RL=1080*1920&OS=8.0.0&API=26',
+  'accept' => 'application/vnd.wap.xhtml+xml,application/xml,text/vnd.wap.wml,text/html,application/xhtml+xml,image/jpeg;q=0.5,image/png;q=0.5,image/gif;q=0.5,image/*;q=0.6,video/*,audio/*,*/*;q=0.6',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
+  'connection' => 'Close',
+  'accept-encoding' => 'gzip',
+  'apn-type' => '1-0',
+  'host' => '192.168.3.15',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T18:55:29+08:00 ] 192.168.3.16 GET /1001Home
+[ info ] 192.168.3.15/1001Home [运行时间：0.020811s][吞吐率：48.05req/s] [内存消耗：1,720.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '1001Home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=clh3815ks9a2ss7e3c0sj3lbbc; _csrf-frontend=1267f45910451c0da5f64d05c946dee1312189aae539a14b82944dd31d515184a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Xcy3UkhqaOD8D4S_WPJzoMfbjrUf-O4P%22%3B%7D; PHPSESSID=2kcr90re5ee9rhalidehmfhk2d',
+  'q-ua2' => 'QV=3&PL=ADR&PR=QB&PP=com.tencent.mtt&PPVN=8.5.0.4221&TBSVC=43100&CO=BK&COVC=038520&PB=GE&VE=GA&DE=PHONE&CHID=70124&LCID=10385&MO= MHA-AL00 &RL=1080*1920&OS=8.0.0&API=26',
+  'accept' => 'application/vnd.wap.xhtml+xml,application/xml,text/vnd.wap.wml,text/html,application/xhtml+xml,image/jpeg;q=0.5,image/png;q=0.5,image/gif;q=0.5,image/*;q=0.6,video/*,audio/*,*/*;q=0.6',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
+  'connection' => 'Close',
+  'accept-encoding' => 'gzip',
+  'apn-type' => '1-0',
+  'host' => '192.168.3.15',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T18:55:30+08:00 ] 192.168.3.16 GET /1001Home
+[ info ] 192.168.3.15/1001Home [运行时间：0.029388s][吞吐率：34.03req/s] [内存消耗：1,720.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '1001Home',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'advanced-frontend=clh3815ks9a2ss7e3c0sj3lbbc; _csrf-frontend=1267f45910451c0da5f64d05c946dee1312189aae539a14b82944dd31d515184a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Xcy3UkhqaOD8D4S_WPJzoMfbjrUf-O4P%22%3B%7D; PHPSESSID=2kcr90re5ee9rhalidehmfhk2d',
+  'q-ua2' => 'QV=3&PL=ADR&PR=QB&PP=com.tencent.mtt&PPVN=8.5.0.4221&TBSVC=43100&CO=BK&COVC=038520&PB=GE&VE=GA&DE=PHONE&CHID=70124&LCID=10385&MO= MHA-AL00 &RL=1080*1920&OS=8.0.0&API=26',
+  'accept' => 'application/vnd.wap.xhtml+xml,application/xml,text/vnd.wap.wml,text/html,application/xhtml+xml,image/jpeg;q=0.5,image/png;q=0.5,image/gif;q=0.5,image/*;q=0.6,video/*,audio/*,*/*;q=0.6',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
+  'connection' => 'Close',
+  'accept-encoding' => 'gzip',
+  'apn-type' => '1-0',
+  'host' => '192.168.3.15',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T18:57:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.026214s][吞吐率：38.15req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T19:07:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.025810s][吞吐率：38.74req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T19:17:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023608s][吞吐率：42.36req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T19:27:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021800s][吞吐率：45.87req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T19:37:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022658s][吞吐率：44.13req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T19:47:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020736s][吞吐率：48.23req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T19:57:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021684s][吞吐率：46.12req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T20:07:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.025575s][吞吐率：39.10req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T20:17:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.032631s][吞吐率：30.65req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T20:27:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020188s][吞吐率：49.53req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T20:37:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.029919s][吞吐率：33.42req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T20:47:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022084s][吞吐率：45.28req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T20:57:51+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.036423s][吞吐率：27.46req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T21:07:52+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.034624s][吞吐率：28.88req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T21:17:53+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.483756s][吞吐率：2.07req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T21:27:53+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021453s][吞吐率：46.61req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T21:37:53+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.030395s][吞吐率：32.90req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T21:47:53+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.025124s][吞吐率：39.80req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T21:57:53+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024484s][吞吐率：40.84req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T22:07:53+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022291s][吞吐率：44.86req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T22:17:53+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023861s][吞吐率：41.91req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T22:27:53+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.035526s][吞吐率：28.15req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T22:37:53+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.034945s][吞吐率：28.62req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T22:47:53+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.030548s][吞吐率：32.74req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T22:52:32+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.028373s][吞吐率：35.24req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T22:54:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020018s][吞吐率：49.95req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T23:04:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021914s][吞吐率：45.63req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T23:14:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023267s][吞吐率：42.98req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T23:24:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.029871s][吞吐率：33.48req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T23:34:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021244s][吞吐率：47.07req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T23:44:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.030222s][吞吐率：33.09req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T23:54:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022488s][吞吐率：44.47req/s] [内存消耗：1,717.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

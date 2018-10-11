@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="__CSS__/index/hot_images.css">
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <!-- 轮播图片 -->
+    <div class="carousel-inner">
+        {volist name="data" id="data" $key}
+            <div class="carousel-item {if $key == 0}active{/if} img-fluids">
+                <img src="{$data.url}">
+            </div>
+        {/volist}
+    </div>
+
+    <!-- 左右切换按钮 -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>

@@ -1,0 +1,102 @@
+{extend name="layout"/}
+
+    {block name="title"}<title>注册</title>{/block}
+
+    {block name="static"}
+<script src="__JS__/index/relogin.js"></script>
+<style>
+    .error{
+        color:red;
+    }
+</style>
+    {/block}
+
+{block name="body"}
+
+{:widget('widgets/head_nav')}
+<!-- 头部 -->
+<!-- logo -->
+<div>
+    <div class="row border-bottom">
+    <div class="col-12">
+        <nav class="navbar  navbar-expand-sm ">
+            <div class="container">
+            <a class="navbar-brand" href="/">
+                <img class="img-fluid" src="__IMG__/logo.png" alt="javascript:">
+            </a>
+            </div>
+        </nav>
+    </div>
+    </div>
+</div>
+<!-- 表单 -->
+<div class=" bg-info">
+    <div class="container py-lg-5">
+        <div class="col-lg-6 bg-white p-4 ">
+            <h2>注册</h2>
+            <form  id="reFrom">
+                <div class="form-group">
+                    <label for="email">邮箱:</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="username">用户名:</label>
+                    <input type="text" class="form-control" name="username" id="username" placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label for="pass">密码:</label>
+                    <input type="password" class="form-control" name="pass" id="pass" placeholder="Enter password">
+                </div>
+                <div class="form-group">
+                    <label for="repass">二次密码:</label>
+                    <input type="password" class="form-control" name="repass" id="repass" placeholder="Enter password">
+                </div>
+                <div class="form-group">
+                    <label for="captcha">验证码:<img id="captcha_img" src="{:captcha_src()}"  onclick="reCaptcha()" />
+                    <span id="times" style="margin-left:10px;">180</span>s
+                    </label>
+                    <input type="text" class="form-control" name="captcha" id="captcha" placeholder="Enter captcha">
+                </div>
+                <button type="button" onclick="relogin()"  class="btn btn-primary">注册</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- 关于 -->
+<div class="col-12 bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-white">
+                关于预留位
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <!-- 模态框 -->
+    <div class="modal fade" id="myModal" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- 模态框头部 -->
+                <div class="modal-header">
+                    <h5 class="modal-title">注册成功</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- 模态框主体 -->
+                <div class="modal-body">
+                    模态框内容..
+                </div>
+
+                <!-- 模态框底部 -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+{/block}

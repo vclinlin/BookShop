@@ -1,0 +1,1356 @@
+---------------------------------------------------------------
+[ 2018-08-19T15:37:18+08:00 ] 127.0.0.1 GET /
+[ info ] www.shops.com/ [运行时间：0.833043s][吞吐率：1.20req/s] [内存消耗：2,118.89kb] [文件加载：46]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->head_nav[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\head_nav.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->retrieval[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\retrieval.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:37:22+08:00 ] 127.0.0.1 GET /index/index/login
+[ info ] www.shops.com/index/index/login [运行时间：0.125535s][吞吐率：7.97req/s] [内存消耗：2,198.34kb] [文件加载：46]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\index\login.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->head_nav[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\head_nav.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:37:22+08:00 ] 127.0.0.1 GET /captcha.html
+[ info ] www.shops.com/captcha.html [运行时间：0.248953s][吞吐率：4.02req/s] [内存消耗：1,749.77kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:37:26+08:00 ] 127.0.0.1 GET /captcha?id=1534664246
+[ info ] www.shops.com/captcha?id=1534664246 [运行时间：0.141928s][吞吐率：7.05req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:40:26+08:00 ] 127.0.0.1 GET /captcha?id=1534664425
+[ info ] www.shops.com/captcha?id=1534664425 [运行时间：0.839391s][吞吐率：1.19req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:43:26+08:00 ] 127.0.0.1 GET /captcha?id=1534664605
+[ info ] www.shops.com/captcha?id=1534664605 [运行时间：1.006682s][吞吐率：0.99req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:46:26+08:00 ] 127.0.0.1 GET /captcha?id=1534664785
+[ info ] www.shops.com/captcha?id=1534664785 [运行时间：0.886883s][吞吐率：1.13req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:49:26+08:00 ] 127.0.0.1 GET /captcha?id=1534664965
+[ info ] www.shops.com/captcha?id=1534664965 [运行时间：0.134834s][吞吐率：7.42req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:52:26+08:00 ] 127.0.0.1 GET /captcha?id=1534665145
+[ info ] www.shops.com/captcha?id=1534665145 [运行时间：0.832429s][吞吐率：1.20req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:55:25+08:00 ] 127.0.0.1 GET /captcha?id=1534665325
+[ info ] www.shops.com/captcha?id=1534665325 [运行时间：0.119726s][吞吐率：8.35req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:58:26+08:00 ] 127.0.0.1 GET /captcha?id=1534665505
+[ info ] www.shops.com/captcha?id=1534665505 [运行时间：0.823724s][吞吐率：1.21req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:01:26+08:00 ] 127.0.0.1 GET /captcha?id=1534665685
+[ info ] www.shops.com/captcha?id=1534665685 [运行时间：0.114458s][吞吐率：8.74req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:04:25+08:00 ] 127.0.0.1 GET /captcha?id=1534665865
+[ info ] www.shops.com/captcha?id=1534665865 [运行时间：0.123711s][吞吐率：8.08req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:07:25+08:00 ] 127.0.0.1 GET /captcha?id=1534666045
+[ info ] www.shops.com/captcha?id=1534666045 [运行时间：0.126461s][吞吐率：7.91req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:10:26+08:00 ] 127.0.0.1 GET /captcha?id=1534666225
+[ info ] www.shops.com/captcha?id=1534666225 [运行时间：0.156395s][吞吐率：6.39req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:13:26+08:00 ] 127.0.0.1 GET /captcha?id=1534666405
+[ info ] www.shops.com/captcha?id=1534666405 [运行时间：0.833614s][吞吐率：1.20req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:16:25+08:00 ] 127.0.0.1 GET /captcha?id=1534666585
+[ info ] www.shops.com/captcha?id=1534666585 [运行时间：0.118605s][吞吐率：8.43req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:19:25+08:00 ] 127.0.0.1 GET /captcha?id=1534666765
+[ info ] www.shops.com/captcha?id=1534666765 [运行时间：0.107747s][吞吐率：9.28req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:22:25+08:00 ] 127.0.0.1 GET /captcha?id=1534666945
+[ info ] www.shops.com/captcha?id=1534666945 [运行时间：0.124368s][吞吐率：8.04req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:25:25+08:00 ] 127.0.0.1 GET /captcha?id=1534667125
+[ info ] www.shops.com/captcha?id=1534667125 [运行时间：0.125542s][吞吐率：7.97req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:28:26+08:00 ] 127.0.0.1 GET /captcha?id=1534667305
+[ info ] www.shops.com/captcha?id=1534667305 [运行时间：0.132537s][吞吐率：7.55req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:31:25+08:00 ] 127.0.0.1 GET /captcha?id=1534667485
+[ info ] www.shops.com/captcha?id=1534667485 [运行时间：0.118055s][吞吐率：8.47req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:34:25+08:00 ] 127.0.0.1 GET /captcha?id=1534667665
+[ info ] www.shops.com/captcha?id=1534667665 [运行时间：0.127734s][吞吐率：7.83req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:37:26+08:00 ] 127.0.0.1 GET /captcha?id=1534667845
+[ info ] www.shops.com/captcha?id=1534667845 [运行时间：0.132877s][吞吐率：7.53req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:40:25+08:00 ] 127.0.0.1 GET /captcha?id=1534668025
+[ info ] www.shops.com/captcha?id=1534668025 [运行时间：0.119744s][吞吐率：8.35req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:43:25+08:00 ] 127.0.0.1 GET /captcha?id=1534668205
+[ info ] www.shops.com/captcha?id=1534668205 [运行时间：0.114079s][吞吐率：8.77req/s] [内存消耗：1,750.00kb] [文件加载：37]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T16:46:26+08:00 ] 127.0.0.1 GET /captcha?id=1534668385
+[ info ] www.shops.com/captcha?id=1534668385 [运行时间：0.270466s][吞吐率：3.70req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]
+---------------------------------------------------------------
+[ 2018-08-19T16:49:25+08:00 ] 127.0.0.1 GET /captcha?id=1534668565
+[ info ] www.shops.com/captcha?id=1534668565 [运行时间：0.028427s][吞吐率：35.18req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]
+---------------------------------------------------------------
+[ 2018-08-19T16:52:25+08:00 ] 127.0.0.1 GET /captcha?id=1534668745
+[ info ] www.shops.com/captcha?id=1534668745 [运行时间：0.027165s][吞吐率：36.81req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]
+---------------------------------------------------------------
+[ 2018-08-19T16:55:25+08:00 ] 127.0.0.1 GET /captcha?id=1534668925
+[ info ] www.shops.com/captcha?id=1534668925 [运行时间：0.034531s][吞吐率：28.96req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]
+---------------------------------------------------------------
+[ 2018-08-19T16:58:25+08:00 ] 127.0.0.1 GET /captcha?id=1534669105
+[ info ] www.shops.com/captcha?id=1534669105 [运行时间：0.035602s][吞吐率：28.09req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]
+---------------------------------------------------------------
+[ 2018-08-19T17:01:25+08:00 ] 127.0.0.1 GET /captcha?id=1534669285
+[ info ] www.shops.com/captcha?id=1534669285 [运行时间：0.041602s][吞吐率：24.04req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]
+---------------------------------------------------------------
+[ 2018-08-19T17:04:25+08:00 ] 127.0.0.1 GET /captcha?id=1534669465
+[ info ] www.shops.com/captcha?id=1534669465 [运行时间：0.048549s][吞吐率：20.60req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]
+---------------------------------------------------------------
+[ 2018-08-19T17:07:25+08:00 ] 127.0.0.1 GET /captcha?id=1534669645
+[ info ] www.shops.com/captcha?id=1534669645 [运行时间：0.028148s][吞吐率：35.53req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]
+---------------------------------------------------------------
+[ 2018-08-19T17:10:25+08:00 ] 127.0.0.1 GET /captcha?id=1534669825
+[ info ] www.shops.com/captcha?id=1534669825 [运行时间：0.028891s][吞吐率：34.61req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]
+---------------------------------------------------------------
+[ 2018-08-19T17:13:25+08:00 ] 127.0.0.1 GET /captcha?id=1534670005
+[ info ] www.shops.com/captcha?id=1534670005 [运行时间：0.027593s][吞吐率：36.24req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]
+---------------------------------------------------------------
+[ 2018-08-19T17:16:25+08:00 ] 127.0.0.1 GET /captcha?id=1534670185
+[ info ] www.shops.com/captcha?id=1534670185 [运行时间：0.045553s][吞吐率：21.95req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]
+---------------------------------------------------------------
+[ 2018-08-19T17:19:25+08:00 ] 127.0.0.1 GET /captcha?id=1534670365
+[ info ] www.shops.com/captcha?id=1534670365 [运行时间：0.037985s][吞吐率：26.33req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]
+---------------------------------------------------------------
+[ 2018-08-19T17:22:25+08:00 ] 127.0.0.1 GET /captcha?id=1534670545
+[ info ] www.shops.com/captcha?id=1534670545 [运行时间：0.044190s][吞吐率：22.63req/s] [内存消耗：1,800.03kb] [文件加载：41]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://www.shops.com/index/index/login',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.shops.com',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'PHPSESSID=hgvnjhl1fjp9kscqskilvarbb8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]imagettftext(): Could not read font[D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\vendor\topthink\think-captcha\src\Captcha.php:191]

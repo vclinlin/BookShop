@@ -1,0 +1,50 @@
+{extend name="layout"/}
+
+    {block name="title"}<title>Home</title>{/block}
+
+    {block name="static"}
+    <link rel="stylesheet" href="__CSS__/index/index.css">
+    {/block}
+
+{block name="body"}
+<!-- 头部 -->
+<div class="container-fluid bg-light">
+        <div class="col-12 bg-light">
+            <!--顶部菜单-->
+            {:widget('widgets/head_nav')}
+        </div>
+    <div class="row">
+        <div class="col-12 bg-white">
+            <!--搜索预留位-->
+            {:widget('widgets/retrieval')}
+        </div>
+    </div>
+</div>
+<!--nav预留位-->
+{:widget('widgets/main_nav')}
+<div class="container-fluid p-0">
+    <!--轮播预留位-->
+    {:widget('widgets/hot_images')}
+</div>
+<div class="container-fluid p-0">
+    <!--移动端的分类列表-->
+    {:widget('MobileWidgets/MobileClass')}
+</div>
+<div class="container">
+    <div class="col-12 d-inline-flex justify-content-center" style="height: 80px;">
+        <h4 style="line-height: 80px;">最新上架</h4>
+    </div>
+    {:widget('Widgets/newBook')}
+    <div class="col-12 d-inline-flex justify-content-center" style="height: 80px;">
+        <h4 style="line-height: 80px;">销量排行</h4>
+    </div>
+    {:widget('Widgets/Rankings')}
+</div>
+<div class="col-12 bg-dark mt-2">
+    <div class="container">
+        <div class="row">
+            {:widget('Widgets/about')}
+        </div>
+    </div>
+</div>
+{/block}

@@ -1,0 +1,36 @@
+---------------------------------------------------------------
+[ 2018-08-30T16:15:12+08:00 ] 127.0.0.1 GET /Bookstore/shop/public/
+[ info ] localhost:8080/Bookstore/shop/public/ [运行时间：0.772901s][吞吐率：1.29req/s] [内存消耗：2,123.28kb] [文件加载：46]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/Bookstore/shop/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'Phpstorm-8e9e30dc=0a9f670b-9125-459c-837c-2657f57527c2; Phpstorm-f67f5dbb=4bf6aba6-8512-4acd-b0ac-2def6d74e63a; _xsrf=2|1a6da81f|22b73bfc2c557731774ff17ce535921c|1534935237; username-localhost-8890="2|1:0|10:1535077859|23:username-localhost-8890|44:YzBmYTIxMTYyZTI5NGQ2NWE5OWM2ZWRlMzY5MzNkMDY=|8f2293e421fd00ae5f5d20d378a3c0da4a07d37b004d5024a3bdc98233c8954c"; username-localhost-8889="2|1:0|10:1535078446|23:username-localhost-8889|44:ZjM4NGMxZTMyODYzNGI0M2JmZTI4ZjAxMzMyMTcxMTA=|4c8e4c84e7d009d87d41d2c23cb53bb0e3cba3abadffbc79e0113bfab5a9a84e"; username-localhost-8888="2|1:0|10:1535501472|23:username-localhost-8888|44:ZmJmNjVkNWIyNGU3NDA5ODkzYmJmODQxZjA5ZWI1Mzg=|82ae42703460aefd92390e27c31344ec0452004c53904de29f147fb2a1e5259c"',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->head_nav[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\head_nav.html [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->retrieval[ D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public/../application/index\view\widget\retrieval.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
