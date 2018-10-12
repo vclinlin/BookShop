@@ -23,10 +23,52 @@
 <!--nav预留位-->
 {:widget('widgets/main_nav')}
 <div class="container border-top" style="min-height: 500px;">
-    <div class="row">
-        <div class="col-12 mt-2">
-
-        </div>
+        {if count($cartData) == 0}
+            <div class="col-12 mt-2 text-center" style="height:90px;line-height:90px;">
+                <p class="list-inline">空空如也,<a href="javascript:window.history.back();">返回前页</a></p>
+            </div>
+        {else}
+        {volist name="cartData" id="cartData" $key}
+            <div class="card mt-3 bg-light">
+                <div class="card-header d-flex align-items-center">
+                    <input type="checkbox" class="mr-1">{$cartData.bookname}(<span class="text-danger">￥{$cartData.sum*$cartData.price}</span>)
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-5">
+                            <img src="{$cartData.cover==''?'/default_cover/default_cover.png':$url.url.$cartData.cover}"
+                                 style="height: 120px; width:90px;" class="img-thumbnail">
+                        </div>
+                        <div class="col-lg-10 col-md-9 col-sm-8 col-7">
+                            <div class="row h-100">
+                                <div class="col-lg-8 col-sm-6 d-flex align-items-center">
+                                    <dl>
+                                        <dd>出版社:{$cartData.press}</dd>
+                                        <dd>已售:{$cartData.sales}</dd>
+                                        <dd>单价:{$cartData.price}</dd>
+                                    </dl>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 d-flex justify-content-center justify-content-between align-items-center">
+                                    <div class="btn-group btn-group-sm">
+                                        <input type="button" class="btn btn-sm" value="-">
+                                        <input type="text" value="{$cartData.sum}"
+                                           class="text-center input-group input-group-sm" style="width:30px;">
+                                        <input type="button" class="btn btn-sm" value="+">
+                                    </div>
+                                    <input type="button" class="btn btn-sm ml-2 btn-danger" value="删除">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {/volist}
+        {/if}
+    <div class="col-12 mt-3 d-inline-flex bg-white border pr-0
+    align-items-center justify-content-between justify-content-center">
+        <div><input type="checkbox" class="mr-1"/>全选</div>
+        <div>合计:<span class="ml-1 text-danger">￥100</span></div>
+        <button class="btn btn-danger text-white">去结算(<span id="count">0</span>)</button>
     </div>
 </div>
 <div class="col-12 bg-dark mt-2">

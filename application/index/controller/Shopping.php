@@ -9,6 +9,7 @@
 namespace app\index\controller;
 
 
+use app\index\model\Admin_url;
 use app\index\model\Books;
 use app\index\model\Ordinary_users;
 use app\index\model\Shopping_cart;
@@ -29,6 +30,7 @@ class Shopping extends Controller
             $this->redirect('index/index/login');
             return;
         }
+        //判断账号是否被冻结
 
     }
     public function isLogin() //登陆检测
@@ -149,6 +151,38 @@ class Shopping extends Controller
 
     public function ShoppingCart()
     {
+        $model = new Books();
+        $this->assign('url',Admin_url::get(1));
+        //判断是否登陆
+        if(!$this->isLogin())
+        {
+            //未登录检测cookie购物车
+            if(!Cookie::get('cartAry'))
+            {
+                //不存在cookie购物车信息
+                $this->assign('cartData',[]);
+                return $this->fetch();
+                return;
+            }
+            //存在cookie购物车信息
+            $data = Cookie::get('cartAry');
+            $cartData = [];
+            foreach ($data as $item)
+            {
+                if(!$model->get(['Id'=>$item['books_id']]))
+                {
+                    //商品已失效
+                    continue;
+                }
+                //有效商品
+                $rel = $model->get(['Id'=>$item['books_id']]);
+                $rel['sum'] = $item['sum'];
+                $cartData[]= $rel;
+            }
+            $this->assign('cartData',$cartData);
+            return $this->fetch();
+            return;
+        }
         return $this->fetch();
     }
     public function addOrder($id)  //添加订单,立即购买页面
