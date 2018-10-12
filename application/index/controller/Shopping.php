@@ -20,7 +20,7 @@ use think\Session;
 class Shopping extends Controller
 {
     protected $beforeActionList = [
-        'checklogin'  =>  ['except'=>'addshoppingcart,shoppingcart'],
+        'checklogin'  =>  ['except'=>'addshoppingcart,shoppingcart,upcart'],
     ];
     public function checkLogin()  //权限控制(必须登录)
     {
@@ -181,9 +181,56 @@ class Shopping extends Controller
             }
             $this->assign('cartData',$cartData);
             return $this->fetch();
+        }
+        $cart = new Shopping_cart();
+        $data = $cart->where(['user_id'=>Session::get('user')])->select();
+        $cartData = [];
+        foreach ($data as $item)
+        {
+            if(!$model->get(['Id'=>$item['books_id']]))
+            {
+                //商品已失效
+                continue;
+            }
+            //有效商品
+            $rel = $model->get(['Id'=>$item['books_id']]);
+            $rel['sum'] = $item['sum'];
+            $cartData[]= $rel;
+        }
+        $this->assign('cartData',$cartData);
+        return $this->fetch();
+    }
+
+    public function upCart($books_id,$sum)
+    {
+        //判断修改离线或者在线购物车
+        if(!$this->isLogin())  //cookie购物车
+        {
+            if(!Cookie::get('cartAry'))
+            {
+                echo json_encode([
+                    'state'=>'400',
+                    'msg'=>'购物车空空如也呢,兄弟?'
+                ]);
+                return;
+            }
+            $data = Cookie::get('cartAry');
+            $i = 0;
+            foreach ($data as $item)
+            {
+                if($books_id == $item['books_id'])
+                {
+                    $data[$i]['sum'] = $sum;
+                }
+                $i++;
+            }
+            //有效期七天
+            Cookie::set('cartAry',$data,604800);
+            echo json_encode([
+                'state'=>'200',
+            ]);
             return;
         }
-        return $this->fetch();
     }
     public function addOrder($id)  //添加订单,立即购买页面
     {

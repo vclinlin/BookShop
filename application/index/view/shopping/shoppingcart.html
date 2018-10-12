@@ -31,7 +31,9 @@
         {volist name="cartData" id="cartData" $key}
             <div class="card mt-3 bg-light">
                 <div class="card-header d-flex align-items-center">
-                    <input type="checkbox" class="mr-1">{$cartData.bookname}(<span class="text-danger">￥{$cartData.sum*$cartData.price}</span>)
+                    <!-- 选择提交 -->
+                    <input id="Sub{$key}" type="checkbox" name="cartSub" value="{$cartData.Id}"
+                           data-num="{$cartData.sum*$cartData.price}" class="mr-1 cartSub">{$cartData.bookname}(<span class="text-danger">￥<span id="subSum{$key}">{$cartData.sum*$cartData.price}</span></span>)
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -45,15 +47,15 @@
                                     <dl>
                                         <dd>出版社:{$cartData.press}</dd>
                                         <dd>已售:{$cartData.sales}</dd>
-                                        <dd>单价:{$cartData.price}</dd>
+                                        <dd>单价:<span data-num="{$cartData.price}" id="price{$key}">{$cartData.price}</span></dd>
                                     </dl>
                                 </div>
                                 <div class="col-lg-4 col-sm-6 d-flex justify-content-center justify-content-between align-items-center">
                                     <div class="btn-group btn-group-sm">
-                                        <input type="button" class="btn btn-sm" value="-">
-                                        <input type="text" value="{$cartData.sum}"
+                                        <input type="button" onclick="reduce({$key})" class="btn btn-sm" value="-">
+                                        <input type="text" id="count{$key}" onchange="changeCount({$key})" value="{$cartData.sum}"
                                            class="text-center input-group input-group-sm" style="width:30px;">
-                                        <input type="button" class="btn btn-sm" value="+">
+                                        <input type="button" onclick="plus({$key})" class="btn btn-sm" value="+">
                                     </div>
                                     <input type="button" class="btn btn-sm ml-2 btn-danger" value="删除">
                                 </div>
@@ -63,13 +65,17 @@
                 </div>
             </div>
         {/volist}
+            <div class="col-12 mt-3 d-inline-flex bg-white border pr-0
+            align-items-center justify-content-between justify-content-center">
+                <div><input type="checkbox" id="allChecked" class="mr-1"
+                            checked="checked"/>全选</div>
+                <div>合计:<span class="text-danger ml-1" >￥</span><span id="money" class="text-danger">0.00</span></div>
+                <div class="btn-group btn-group-sm">
+                    <button class="btn btn-danger table-danger">清空</button>
+                    <button class="btn btn-primary text-white">去结算(<span id="count">0</span>)</button>
+                </div>
+            </div>
         {/if}
-    <div class="col-12 mt-3 d-inline-flex bg-white border pr-0
-    align-items-center justify-content-between justify-content-center">
-        <div><input type="checkbox" class="mr-1"/>全选</div>
-        <div>合计:<span class="ml-1 text-danger">￥100</span></div>
-        <button class="btn btn-danger text-white">去结算(<span id="count">0</span>)</button>
-    </div>
 </div>
 <div class="col-12 bg-dark mt-2">
     <div class="container">
@@ -78,4 +84,146 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(function () {
+        //初始判断
+        isCheckBox()
+        //全选/取消事件
+        $("#allChecked").change(function () {
+            isCheckBox()
+        });
+        $(".cartSub").change(function () {
+            changeSub()
+        })
+    })
+    //全选时界面改变
+    function isCheckBox() {
+        var sum = 0.00;
+        if($('#allChecked').is(':checked'))
+        {
+            //全选事件
+            $(".cartSub").prop("checked", true);
+            $(".cartSub").each(function () {
+                sum += Number($('#'+this.id).data('num'));
+            })
+            $('#count').empty().append($(".cartSub").length);
+            $('#money').empty().append(sum.toFixed(2))
+            return;
+        }
+        $(".cartSub").prop("checked", false);
+        $('#money').empty().append(sum.toFixed(2))
+        $('#count').empty().append(0);
+        return;
+    }
+    //单个改变
+    function changeSub() {
+        if($(".cartSub:checked").length == $(".cartSub").length)
+        {
+            //全选
+            $("#allChecked").prop("checked", true);
+        }else{
+            $("#allChecked").prop("checked", false);
+        }
+        //更新选择数量
+        $('#count').empty().append($(".cartSub:checked").length);
+        //更新选择总价
+        var sum = 0;
+        $(".cartSub:checked").each(function () {
+            sum += $('#'+this.id).data('num')
+        })
+        $('#money').empty().append(sum)
+    }
+    function reduce(key) {
+        try{
+            var count = Number($('#count'+key).val());
+            if(count-1 >=1)
+            {
+                $('#count'+key).val(count-1)
+                changeCount(key)
+                return;
+            }
+            layer.msg('不能再少啦',{icon:0})
+            return;
+        }catch (e) {
+            window.location.reload()
+        }
+    }
+    function plus(key) {
+        try{
+            var count = Number($('#count'+key).val());
+            if(count+1 <=10)
+            {
+                $('#count'+key).val(count+1)
+                changeCount(key)
+                return;
+            }
+            layer.msg('一次限购10本',{icon:0})
+            return;
+        }catch (e) {
+            window.location.reload()
+        }
+    }
+    function changeCount(key) {
+        try {
+            var count = Number($('#count'+key).val().trim());
+            if(!/^[0-9]+$/.test(count))  //非数值
+            {
+                layer.msg('非有效数值',{icon:0,time:2000},function () {
+                    window.location.reload();
+                });
+                return;
+            }
+            if(count>10)
+            {
+                layer.msg('一次限购10本',{icon:0,time:2000},function () {
+                    window.location.reload();
+                });
+                return;
+            }
+            if(count<1)
+            {
+                layer.msg('至少购买一本',{icon:0,time:2000},function () {
+                    window.location.reload();
+                });
+                return;
+            }
+            //改变显示
+            var moneySum = (count*Number($("#price"+key).data('num'))).toFixed(2);
+            $('#subSum'+key).empty().append(moneySum);
+            $("#Sub"+key).data('num',moneySum)
+            isCheckBox(key);
+            //更新购物车数据具体数量
+            $.ajax({
+                url:'/index/shopping/upCart',
+                type:'post',
+                dataType:'json',
+                data:{
+                    'books_id':$('#Sub'+key).val(),
+                    'sum':count
+                },success:function (res) {
+                    try {
+                        if(res.state == 200)
+                        {
+                            return;
+                        }
+                        if(res.state == 400)
+                        {
+                            layer.msg(res.msg,{icon:0,time:2000});
+                            return;
+                        }
+                    }catch (e) {
+                        layer.msg('网络错误,稍后再试',{icon:0,time:2000});
+                        return;
+                    }
+                },error:function (res) {
+                    layer.msg('网络错误,稍后再试',{icon:0,time:2000});
+                    return;
+                }
+            })
+        }catch (e) {
+            window.location.reload()
+        }
+    }
+</script>
 {/block}
