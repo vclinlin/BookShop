@@ -23,7 +23,7 @@
 <!--nav预留位-->
 {:widget('widgets/main_nav')}
 <div class="container border-top" style="min-height: 500px;">
-        {if count($cartData) == 0 || !$cartData}
+        {if count($cartData) == 0 || !isset($cartData)}
             <div class="col-12 mt-2 text-center" style="height:90px;line-height:90px;">
                 <p class="list-inline">空空如也,<a href="javascript:window.history.back();">返回前页</a></p>
             </div>
