@@ -20,7 +20,7 @@ use think\Session;
 class Shopping extends Controller
 {
     protected $beforeActionList = [
-        'checklogin'  =>  ['except'=>'addshoppingcart,shoppingcart,upcart'],
+        'checklogin'  =>  ['except'=>'addshoppingcart,shoppingcart,upcart,delcart'],
     ];
     public function checkLogin()  //权限控制(必须登录)
     {
@@ -203,6 +203,14 @@ class Shopping extends Controller
 
     public function upCart($books_id,$sum)
     {
+        if($sum>10||$sum<=0)
+        {
+            echo json_encode([
+                'state'=>'400',
+                'msg'=>'数据不对呢'
+            ]);
+            return;
+        }
         //判断修改离线或者在线购物车
         if(!$this->isLogin())  //cookie购物车
         {
@@ -231,6 +239,71 @@ class Shopping extends Controller
             ]);
             return;
         }
+        //在线购物车更新
+        $model = new Shopping_cart();
+        //更新数量
+        if(!$model->where(['user_id'=>Session::get('user'),'books_id'=>$books_id])
+        ->update(['sum'=>$sum]))
+        {
+            echo json_encode([
+                'state'=>'400',
+                'msg'=>'您的购物车里,没有该商品存在'
+            ]);
+            return;
+        }
+        echo json_encode([
+            'state'=>'200'
+        ]);
+        return;
+    }
+
+    public function delCart($books_id)  //购物车单件删除
+    {
+        //判断修改离线或者在线购物车
+        if(!$this->isLogin())  //cookie购物车
+        {
+            if(!Cookie::get('cartAry'))
+            {
+                echo json_encode([
+                    'state'=>'400',
+                    'msg'=>'购物车空空如也呢,兄弟?'
+                ]);
+                return;
+            }
+            $data = Cookie::get('cartAry');
+            $i = 0;
+            foreach ($data as $item)
+            {
+                if($books_id == $item['books_id'])
+                {
+                    array_splice($data,$i,1);
+                }
+                $i++;
+            }
+            //有效期七天
+            Cookie::set('cartAry',$data,604800);
+            echo json_encode([
+                'state'=>'200',
+                'msg'=>'已删除'
+            ]);
+            return;
+        }
+        //删除在线购物车数据
+        $model = new Shopping_cart();
+        if(!$model->where(['user_id'=>Session::get('user'),'books_id'=>$books_id])
+            ->delete())
+        {
+            echo json_encode([
+                'state'=>'400',
+                'msg'=>'您的购物车里,没有该商品存在'
+            ]);
+            return;
+        }
+        echo json_encode([
+            'state'=>'200',
+            'msg'=>'已删除'
+        ]);
+        return;
     }
     public function addOrder($id)  //添加订单,立即购买页面
     {
