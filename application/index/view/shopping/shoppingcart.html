@@ -71,7 +71,7 @@
                             checked="checked"/>全选</div>
                 <div>合计:<span class="text-danger ml-1" >￥</span><span id="money" class="text-danger">0.00</span></div>
                 <div class="btn-group btn-group-sm">
-                    <button class="btn btn-danger table-danger">清空</button>
+                    <button onclick="clearCart()" class="btn btn-danger table-danger">清空</button>
                     <button class="btn btn-primary text-white">去结算(<span id="count">0</span>)</button>
                 </div>
             </div>
@@ -246,6 +246,41 @@ function delCart(books_id,key){
                         layer.msg(res.msg,{icon:1,time:1500},function () {
                             $("#card"+key).remove();
                             changeSub();
+                        });
+                        return;
+                    }
+                    if(res.state == 400)
+                    {
+                        layer.msg(res.msg,{icon:0,time:2000});
+                        return;
+                    }
+                }catch (e) {
+                    layer.msg('网络错误,稍后再试',{icon:0,time:2000});
+                    return;
+                }
+            },error:function (res) {
+                layer.msg('网络错误,稍后再试',{icon:0,time:2000});
+                return;
+            }
+        })
+    }, function(){
+        layer.msg('已取消', {icon:1,time: 2000});
+    });
+}
+function clearCart() {
+    layer.confirm('确定清空购物车?', {
+        btn: ['确定','取消'] //按钮
+    }, function(){
+        $.ajax({
+            url:'/index/shopping/clearCart',
+            type:'get',
+            dataType:'json',
+            success:function (res) {
+                try {
+                    if(res.state == 200)
+                    {
+                        layer.msg(res.msg,{icon:1,time:1500},function () {
+                            window.location.reload();
                         });
                         return;
                     }

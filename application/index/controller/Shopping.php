@@ -20,7 +20,9 @@ use think\Session;
 class Shopping extends Controller
 {
     protected $beforeActionList = [
-        'checklogin'  =>  ['except'=>'addshoppingcart,shoppingcart,upcart,delcart'],
+        'checklogin'  =>  [
+            'except'=>'addshoppingcart,shoppingcart,upcart,delcart,clearcart'
+        ],
     ];
     public function checkLogin()  //权限控制(必须登录)
     {
@@ -296,6 +298,43 @@ class Shopping extends Controller
             echo json_encode([
                 'state'=>'400',
                 'msg'=>'您的购物车里,没有该商品存在'
+            ]);
+            return;
+        }
+        echo json_encode([
+            'state'=>'200',
+            'msg'=>'已删除'
+        ]);
+        return;
+    }
+    public function clearCart(){
+        //判断修改离线或者在线购物车
+        if(!$this->isLogin())  //cookie购物车
+        {
+            if(!Cookie::get('cartAry'))
+            {
+                echo json_encode([
+                    'state'=>'400',
+                    'msg'=>'购物车空空如也呢,兄弟?'
+                ]);
+                return;
+            }
+            //删除cookie购物车
+            Cookie::delete('cartAry');
+            echo json_encode([
+                'state'=>'200',
+                'msg'=>'已删除'
+            ]);
+            return;
+        }
+        //删除该用户的在线购物车所有数据
+        $model = new Shopping_cart();
+        if(!$model->where(['user_id'=>Session::get('user')])
+            ->delete())
+        {
+            echo json_encode([
+                'state'=>'400',
+                'msg'=>'您的购物车里,没有商品存在'
             ]);
             return;
         }
