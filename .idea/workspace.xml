@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="购物车单个商品删除完成">
+    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="新增清空购物车">
+      <change afterPath="$PROJECT_DIR$/application/index/controller/Order.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/controller/Shopping.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Shopping.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,39 +83,44 @@
         <counts>
           <entry key="html" value="14" />
           <entry key="js" value="1" />
-          <entry key="php" value="7" />
+          <entry key="php" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="14" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="7" />
+          <entry key="PHP" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="3648" />
-          <entry key="php" value="1375" />
-          <entry key="txt" value="75" />
+          <entry key="php" value="1420" />
+          <entry key="txt" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="3648" />
-          <entry key="PHP" value="1375" />
-          <entry key="PLAIN_TEXT" value="75" />
+          <entry key="PHP" value="1420" />
+          <entry key="PLAIN_TEXT" value="79" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Shopping.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="23" column="77" lean-forward="true" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+            <state relative-caret-position="520">
+              <caret line="25" column="6" selection-start-line="21" selection-start-column="4" selection-end-line="25" selection-end-column="6" />
               <folding>
                 <element signature="e#123#153#0#PHP" expanded="true" />
               </folding>
@@ -137,6 +142,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -154,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/index/view/index/index.php" />
         <option value="$PROJECT_DIR$/application/index/model/Walls.php" />
         <option value="$PROJECT_DIR$/application/index/validate/WallFrom.php" />
         <option value="$PROJECT_DIR$/public/static/js/index/walls.js" />
@@ -205,6 +218,7 @@
         <option value="$PROJECT_DIR$/application/index/view/widget/head_nav.html" />
         <option value="$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html" />
         <option value="$PROJECT_DIR$/application/index/controller/Shopping.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Order.php" />
       </list>
     </option>
   </component>
@@ -270,69 +284,6 @@
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="com_img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -427,7 +378,7 @@
       <workItem from="1539348387357" duration="16000" />
       <workItem from="1539348450434" duration="8325000" />
       <workItem from="1539404001747" duration="2457000" />
-      <workItem from="1539417761675" duration="4975000" />
+      <workItem from="1539417761675" duration="7016000" />
     </task>
     <task id="LOCAL-00001" summary="完成cookie购物车">
       <created>1539270811979</created>
@@ -492,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539421460533</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="新增清空购物车">
+      <created>1539422761075</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1539422761075</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197600000" />
+    <option name="totallyTimeSpent" value="199641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -542,10 +500,10 @@
     <MESSAGE value="优化" />
     <MESSAGE value="优化2" />
     <MESSAGE value="购物车单个商品删除完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="购物车单个商品删除完成" />
+    <MESSAGE value="新增清空购物车" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增清空购物车" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/index/view/widget/walls.php" />
     <entry file="file://$PROJECT_DIR$/application/index/view/widget/nav.php" />
     <entry file="file://$PROJECT_DIR$/public/static/bootstrap4.0/css/font-awesome.css" />
     <entry file="file://$PROJECT_DIR$/application/index/view/tpout.php" />
@@ -842,11 +800,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Shopping.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="23" column="77" lean-forward="true" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+        <state relative-caret-position="520">
+          <caret line="25" column="6" selection-start-line="21" selection-start-column="4" selection-end-line="25" selection-end-column="6" />
           <folding>
             <element signature="e#123#153#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -344,7 +344,4 @@ class Shopping extends Controller
         ]);
         return;
     }
-    public function addOrder($id)  //添加订单,立即购买页面
-    {
-    }
 }
