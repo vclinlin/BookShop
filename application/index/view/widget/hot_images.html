@@ -2,11 +2,17 @@
 <div id="demo" class="carousel slide" data-ride="carousel">
     <!-- 轮播图片 -->
     <div class="carousel-inner">
+        {if !$data || count($data)==0}
+            <div class="carousel-item active img-fluids">
+                <img src="__STATIC__/com_img/Initialization.png">
+            </div>
+        {else}
         {volist name="data" id="data" $key}
             <div class="carousel-item {if $key == 0}active{/if} img-fluids">
                 <img src="{$data.url}">
             </div>
         {/volist}
+        {/if}
     </div>
 
     <!-- 左右切换按钮 -->
