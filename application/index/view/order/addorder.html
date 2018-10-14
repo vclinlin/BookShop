@@ -32,8 +32,9 @@
             <div class="input-group-prepend">
                 <button class="btn btn-danger" type="button">使用新地址</button>
             </div>
-            <select class="form-control">
-                <option value="">重庆市-渝北区-电子产业园区[唐玉琳|收](四季花城6-10-2)电话:17683113370</option>
+            <select class="form-control" id="address_id">
+                <option value="0">重庆市-渝北区-电子产业园区[唐玉琳|收](四季花城6-10-2)电话:17683113370</option>
+                <option value="1">重庆市-渝北区-电子产业园区[唐玉琳|收](四季花城6-10-2)电话:17683113370</option>
             </select>
         </div>
     </div>
@@ -42,8 +43,9 @@
             <div class="input-group-prepend">
                 <span class="input-group-text">支付方式:</span>
             </div>
-            <select class="form-control">
-                <option value="">在线支付</option>
+            <select class="form-control" id="pay">
+                <option value="0">在线支付</option>
+                <option value="1">货到付款</option>
             </select>
         </div>
     </div>
@@ -67,12 +69,14 @@
                 <td colspan="5">商品库存不足</td>
             </tr>
             {else}
-                {volist name="validData" id="validData"}
+                {volist name="validData" id="validData" $key}
                 <tr>
                     <td>{$validData.bookname}</td>
                     <td>{$validData.press}</td>
                     <td>{$validData.price}</td>
-                    <td>x{$validData.sum}</td>
+                    <!-- 传递商品id,购买数量 -->
+                    <td class="orderData" data-book="{$validData.books_id}"
+                        id="order{$key}" data-sum="{$validData.sum}">x{$validData.sum}</td>
                     <td>{$validData.price*$validData.sum}</td>
                 </tr>
                 {/volist}
@@ -114,7 +118,7 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text">备注:</span>
                 </div>
-                <input type="text" class="form-control" placeholder="给商家留言"/>
+                <input type="text" id="msg" class="form-control" placeholder="给商家留言"/>
             </div>
         </div>
         <div class="col-sm-6 d-inline-flex justify-content-end mt-3">
@@ -123,7 +127,7 @@
         </div>
     </div>
     <div class="pt-3 pb-3 col-12 d-inline-flex justify-content-end align-items-center">
-        <input type="button" class="btn btn-danger" value="提交订单">
+        <input type="button" class="btn btn-danger" onclick="placeOrder()" value="提交订单">
     </div>
 </div>
 
@@ -134,4 +138,55 @@
         </div>
     </div>
 </div>
+
+<script>
+    function placeOrder() {
+        var data = Array();
+        var msgData =Array();
+        $('.orderData').each(function (i) {
+            data[i] = {
+                'books_id':$('#'+this.id).data('book'),
+                'sum':$('#'+this.id).data('sum')
+            };
+        });
+        msgData={
+            'msg':$("#msg").val().trim(),
+            'address_id':$("#address_id").val(),
+            'pay':$("#pay").val()
+            }
+        if(data.length<=0)
+        {
+            layer.msg('没有有效商品信息',{icon:5,time:2000});
+            return;
+        }
+        $.ajax({
+            url:'{:url("index/Order/placeOrder")}',
+            type:'post',
+            dataType:'json',
+            data:{
+                'data':data,
+                'msgData':msgData
+            },
+            success:function (res) {
+                try {
+                    if(res.state == 200)
+                    {
+                        return;
+                    }
+                    if(res.state == 400)
+                    {
+                        layer.msg(res.msg,{icon:0,time:2000});
+                        return;
+                    }
+                }catch (e) {
+                    layer.msg('网络错误,稍后再试',{icon:0,time:2000});
+                    return;
+                }
+            },error:function (res) {
+                layer.msg('网络错误,稍后再试',{icon:0,time:2000});
+                return;
+            }
+        })
+    }
+</script>
 {/block}

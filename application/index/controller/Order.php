@@ -10,6 +10,7 @@ namespace app\index\controller;
 
 
 use app\index\model\Books;
+use app\index\model\Order_book;
 use app\index\model\Shopping_cart;
 use think\Session;
 
@@ -34,7 +35,7 @@ class Order extends Shopping
                 if (!$rel = $cart_model->alias('A')->
                 join('books B', 'A.books_id = B.Id and B.count - B.sales >= A.sum')
                     ->where(['books_id' => $item, 'user_id' => Session::get('user')])
-                    ->field('A.sum,B.bookname,B.price,B.press')
+                    ->field('A.books_id,A.sum,B.bookname,B.price,B.press')
                     ->select()) {
                     $error_Data[] = $cart_model->alias('A')->
                     join('books B', 'A.books_id = B.Id ')
@@ -70,5 +71,99 @@ class Order extends Shopping
         $this->assign('ErData',$error_Data);
         $this->assign('sum',$sum);
         return $this->fetch();
+    }
+
+    public function placeOrder()
+    {
+        $datas = $this->request->post();
+        //整理格式
+        $data = $datas['data'];
+        if(count($data)<=0)
+        {
+            echo json_encode([
+                'state'=>400,
+                'msg'=>'订单信息错误'
+            ]);
+            return;
+        }
+        /**
+         * 处理订单
+         * -订单信息
+         * |-订单编号   $order_number
+         * |-商品编号   $books_id
+         * |-商品数量   $books_sum
+         * |-总价       $money
+         * |-支付状态   $pay_state
+         * |-创建时间   $create_time
+         * |-订单状态   $order_state
+         */
+        $book = new Books();
+        //生成订单信息
+        $books_id = null;
+        $books_sum = null;
+        $money = 0;
+        foreach ($data as $item){
+            if(!$rel = $book->get(['Id'=>$item['books_id']])){
+                //商品信息有误
+                echo json_encode([
+                    'state'=>400,
+                    'msg'=>'订单信息错误'
+                ]);
+                return;
+                break;
+            }
+            //组合成字符串,便于存取
+            $books_id  .= $item['books_id'].',';
+            $books_sum .= $item['sum'].',';
+            //计算总价
+            $money += $rel['price']*$item['sum'];
+        }
+        //产生订单编号所需要的字母
+        $order_number = '';
+        while (true){
+            $order_number.=rand(1,2)==1?chr(rand(65,90)):chr(rand(97,122));
+            if(strlen($order_number) == 5)
+            {
+                break;
+            }
+        }
+        //获取附加信息
+        $msg = $datas['msgData'];
+        $orderAry = [
+            //产生随机字符串
+            'order_number'=>str_shuffle($order_number.time()),
+            'books_id'=>substr($books_id, 0, -1),
+            'books_sum'=>substr($books_sum,0,-1),
+            'money'=>round($money,2),
+            'pay_state'=>0,
+            'order_state'=>0,
+            'create_time'=>time(),
+            'user_id'=>Session::get('user'),
+            'msg'=>htmlentities($msg['msg']),
+            'pay'=>$msg['pay'],
+            'address_id'=>$msg['address_id']
+        ];
+        $model = new Order_book();
+        if(!$model->insert($orderAry))
+        {
+            //存入失败
+            echo json_encode([
+                'state'=>400,
+                'msg'=>'订单信息错误'
+            ]);
+            return;
+        }
+        //清理购物车
+        $cart_model = new Shopping_cart();
+        foreach ($data as $item){
+            $cart_model->where(['books_id'=>$item['books_id'],
+                'user_id'=>Session::get('user'),
+                'sum'=>$item['sum']])->delete();
+        }
+        echo json_encode([
+            'state'=>200,
+            'msg'=>'已生成订单'
+        ]);
+        return;
     }
 }
