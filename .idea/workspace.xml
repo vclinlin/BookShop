@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="新增清空购物车">
-      <change afterPath="$PROJECT_DIR$/application/index/controller/Order.php" afterDir="false" />
+    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="购物车结算">
+      <change afterPath="$PROJECT_DIR$/application/index/view/order/addorder.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Shopping.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Shopping.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,39 +73,39 @@
     <session id="1807094656">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.7" value="4" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="14" />
+          <entry key="html" value="16" />
           <entry key="js" value="1" />
-          <entry key="php" value="9" />
+          <entry key="php" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="14" />
+          <entry key="HTML" value="16" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="9" />
+          <entry key="PHP" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3648" />
-          <entry key="php" value="1420" />
-          <entry key="txt" value="79" />
+          <entry key="html" value="4732" />
+          <entry key="php" value="1887" />
+          <entry key="txt" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3648" />
-          <entry key="PHP" value="1420" />
-          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="HTML" value="4732" />
+          <entry key="PHP" value="1887" />
+          <entry key="PLAIN_TEXT" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -117,22 +118,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/controller/Shopping.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="25" column="6" selection-start-line="21" selection-start-column="4" selection-end-line="25" selection-end-column="6" />
-              <folding>
-                <element signature="e#123#153#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="289" column="31" selection-start-line="289" selection-start-column="31" selection-end-line="289" selection-end-column="31" />
+            <state relative-caret-position="-104">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#!!top" expanded="true" />
@@ -142,11 +131,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="685">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="32" />
+              <folding>
+                <element signature="e#124#158#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/index/view/order/addorder.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="52" column="40" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -168,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/index/model/Walls.php" />
         <option value="$PROJECT_DIR$/application/index/validate/WallFrom.php" />
         <option value="$PROJECT_DIR$/public/static/js/index/walls.js" />
         <option value="$PROJECT_DIR$/application/index/view/index/loginview.php" />
@@ -216,9 +216,10 @@
         <option value="$PROJECT_DIR$/public/static/js/common.js" />
         <option value="$PROJECT_DIR$/application/index/view/widget/hot_images.html" />
         <option value="$PROJECT_DIR$/application/index/view/widget/head_nav.html" />
-        <option value="$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html" />
         <option value="$PROJECT_DIR$/application/index/controller/Shopping.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Order.php" />
+        <option value="$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html" />
+        <option value="$PROJECT_DIR$/application/index/view/order/addorder.html" />
       </list>
     </option>
   </component>
@@ -260,6 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,11 +287,25 @@
               <item name="index" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,15 +319,15 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\view\index" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Vc_PHP\Apache24\htdocs\BookShop\application\index\view\order" />
       <recent name="D:\Vc_PHP\Apache24\htdocs\BookShop\application\index\view\shopping" />
       <recent name="D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public\static" />
       <recent name="D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public\default_cover" />
       <recent name="D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\application\index\view\widget" />
-      <recent name="D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public\static\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\view\index" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,7 +394,9 @@
       <workItem from="1539348387357" duration="16000" />
       <workItem from="1539348450434" duration="8325000" />
       <workItem from="1539404001747" duration="2457000" />
-      <workItem from="1539417761675" duration="7016000" />
+      <workItem from="1539417761675" duration="9071000" />
+      <workItem from="1539492242846" duration="153000" />
+      <workItem from="1539493382818" duration="6751000" />
     </task>
     <task id="LOCAL-00001" summary="完成cookie购物车">
       <created>1539270811979</created>
@@ -450,17 +468,24 @@
       <option name="project" value="LOCAL" />
       <updated>1539422761075</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="购物车结算">
+      <created>1539425583633</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1539425583633</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199641000" />
+    <option name="totallyTimeSpent" value="208600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32622603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3336887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -501,10 +526,10 @@
     <MESSAGE value="优化2" />
     <MESSAGE value="购物车单个商品删除完成" />
     <MESSAGE value="新增清空购物车" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增清空购物车" />
+    <MESSAGE value="购物车结算" />
+    <option name="LAST_COMMIT_MESSAGE" value="购物车结算" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/index/view/widget/nav.php" />
     <entry file="file://$PROJECT_DIR$/public/static/bootstrap4.0/css/font-awesome.css" />
     <entry file="file://$PROJECT_DIR$/application/index/view/tpout.php" />
     <entry file="file://$PROJECT_DIR$/application/index/view/index/loginview.php" />
@@ -758,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/widget/newbook.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="12" column="107" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49">
@@ -786,10 +804,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/widget/newbook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Shopping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5096">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#123#153#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="289" column="31" selection-start-line="289" selection-start-column="31" selection-end-line="289" selection-end-column="31" />
+        <state relative-caret-position="-104">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#!!top" expanded="true" />
@@ -798,20 +836,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Shopping.php">
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="25" column="6" selection-start-line="21" selection-start-column="4" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="685">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="32" />
           <folding>
-            <element signature="e#123#153#0#PHP" expanded="true" />
+            <element signature="e#124#158#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
+    <entry file="file://$PROJECT_DIR$/application/index/view/order/addorder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="555">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="40" />
         </state>
       </provider>
     </entry>
