@@ -12,6 +12,7 @@ namespace app\index\controller;
 use app\index\model\Books;
 use app\index\model\Order_book;
 use app\index\model\Shopping_cart;
+use think\Exception;
 use think\Session;
 
 class Order extends Shopping
@@ -37,11 +38,15 @@ class Order extends Shopping
                     ->where(['books_id' => $item, 'user_id' => Session::get('user')])
                     ->field('A.books_id,A.sum,B.bookname,B.price,B.press')
                     ->select()) {
-                    $error_Data[] = $cart_model->alias('A')->
-                    join('books B', 'A.books_id = B.Id ')
-                        ->where(['books_id' => $item, 'user_id' => Session::get('user')])
-                        ->field('A.books_id,A.sum,B.bookname,B.press,B.count,B.sales')
-                        ->select()[0];
+                    try {
+                        $error_Data[] = $cart_model->alias('A')->
+                        join('books B', 'A.books_id = B.Id ')
+                            ->where(['books_id' => $item, 'user_id' => Session::get('user')])
+                            ->field('A.books_id,A.sum,B.bookname,B.press,B.count,B.sales')
+                            ->select()[0];
+                    }catch (Exception $e){
+                        //不做处理
+                    }
                     continue;
                 }
                 $orderData[] = $rel[0];
@@ -127,11 +132,14 @@ class Order extends Shopping
                 break;
             }
         }
+        //生成订单号
+        $order_number = str_shuffle($order_number.time());
+        //预留做邮费处理
         //获取附加信息
         $msg = $datas['msgData'];
         $orderAry = [
             //产生随机字符串
-            'order_number'=>str_shuffle($order_number.time()),
+            'order_number'=>$order_number,
             'books_id'=>substr($books_id, 0, -1),
             'books_sum'=>substr($books_sum,0,-1),
             'money'=>round($money,2),
@@ -162,8 +170,25 @@ class Order extends Shopping
         }
         echo json_encode([
             'state'=>200,
-            'msg'=>'已生成订单'
+            'msg'=>'已生成订单',
+            'order_number'=>$order_number
         ]);
         return;
+    }
+
+    public function payOrder($order_number=null)
+    {
+        //展示所有订单
+        $order_model = new  Order_book();
+        if($order_number == null)
+        {
+            //按订单时间排序
+            $order_data= $order_model->where(['user_id'=>Session::get('user')])
+                ->order('create_time','desc')
+                ->select();
+            $this->assign('order_data',$order_data);
+            return $this->fetch('orderlist');
+        }
+        echo $order_number;
     }
 }

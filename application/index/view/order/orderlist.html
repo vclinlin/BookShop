@@ -1,0 +1,42 @@
+{extend name="layout"/}
+
+    {block name="title"}<title>我的订单</title>{/block}
+
+    {block name="static"}
+    <link rel="stylesheet" href="__CSS__/index/index.css">
+    {/block}
+
+{block name="body"}
+<!-- 头部 -->
+<div class="container-fluid bg-light">
+        <div class="col-12 bg-light">
+            <!--顶部菜单-->
+            {:widget('widgets/head_nav')}
+        </div>
+    <div class="row">
+        <div class="col-12 bg-white">
+            <!--搜索预留位-->
+            {:widget('widgets/retrieval')}
+        </div>
+    </div>
+</div>
+<!--nav预留位-->
+{:widget('widgets/main_nav')}
+<div class="container border-top" style="min-height: 500px;">
+    <div class="list-group mt-3">
+        <div class="list-group-item bg-">ceshi</div>
+    {if !$order_data || count($order_data)==0}
+        <div class="list-group-item list-group-item-secondary">ceshi</div>
+    {else}
+        <div class="list-group-item list-group-item-secondary">ceshi</div>
+    {/if}
+    </div>
+</div>
+<div class="col-12 bg-dark mt-2">
+    <div class="container">
+        <div class="row">
+            {:widget('Widgets/about')}
+        </div>
+    </div>
+</div>
+{/block}

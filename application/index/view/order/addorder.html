@@ -66,7 +66,7 @@
             <tbody>
             {if !$validData || count($validData)==0}
             <tr>
-                <td colspan="5">商品库存不足</td>
+                <td colspan="5">商品库存不足或购物车为空</td>
             </tr>
             {else}
                 {volist name="validData" id="validData" $key}
@@ -171,6 +171,9 @@
                 try {
                     if(res.state == 200)
                     {
+                        layer.msg(res.msg,{icon:1,time:2000},function () {
+                            window.location.href='{:url("index/Order/payOrder")}?order_number='+res.order_number;
+                        })
                         return;
                     }
                     if(res.state == 400)
