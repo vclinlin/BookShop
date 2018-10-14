@@ -1,4 +1,12 @@
 /**
+ * 基础公共事件
+ */
+$(function () {
+    //表格 强制不换行
+    $(".table-nowrap th").attr('nowrap', 'nowrap');
+    $(".table-nowrap td").attr('nowrap', 'nowrap');
+})
+/**
  * 添加购物车,公共事件
  * 商品id
  */

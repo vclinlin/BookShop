@@ -23,7 +23,7 @@
                     </dl>
                     <div class="btn-group btn-group-sm mb-2">
                         <input type="button" class="btn btn-success"
-                               onclick="window.location.href='{:url(\'index/Shopping/addOrder\',[\'id\'=>$data.Id])}'" value="立即购买">
+                               onclick="window.location.href='{:url(\'index/Order/addOrder\',[\'data\'=>$data.Id,\'count\'=>1])}'" value="立即购买">
                         <button type="button" class="btn btn-danger"
                                 onclick="addShoppingCart({$data.Id})" >
                             <i class="fa fa-cart-plus"></i></button>
