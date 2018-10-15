@@ -30,7 +30,8 @@
     <div class="pt-3 pb-3 border-bottom col-12 d-inline-flex align-items-center">
         <div class="input-group">
             <div class="input-group-prepend">
-                <button class="btn btn-danger" type="button">使用新地址</button>
+                <button data-toggle="modal" data-target="#myModal" onclick="getGeography()"
+                        class="btn btn-danger" type="button">使用新地址</button>
             </div>
             <select class="form-control" id="address_id">
                 <option value="0">重庆市-渝北区-电子产业园区[唐玉琳|收](四季花城6-10-2)电话:17683113370</option>
@@ -138,7 +139,69 @@
         </div>
     </div>
 </div>
+<!-- 附件 -->
+<div class="modal fade" id="myModal" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
 
+            <!-- 模态框头部 -->
+            <div class="modal-header">
+                <h4 class="modal-title">新增地址</h4>
+                <!-- 关闭时更新收货地址 -->
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- 模态框主体 -->
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="Province" class="font-weight-bold">省份:</label>
+                        <select class="form-control" name="Province" id="Province">
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="city"  class="font-weight-bold">城市:</label>
+                        <select class="form-control"  name="city" id="city">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="county"  class="font-weight-bold">县/区:</label>
+                        <select class="form-control"  name="county" id="county">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="townDiv">
+                        <label for="town"  class="font-weight-bold">城镇:</label>
+                        <select class="form-control"  name="town" id="town">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="villageDiv">
+                        <label for="village"  class="font-weight-bold">乡:</label>
+                        <select class="form-control"  name="village" id="village">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="Telephone" class="font-weight-bold">电话号码:</label>
+                        <input id="Telephone" type="text" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="detailed" class="font-weight-bold">详细地址:</label>
+                        <textarea id="detailed" rows="3" class="form-control" placeholder="小区/楼层/门牌(选填)"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <!-- 模态框底部 -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" >确定</button>
+            </div>
+
+        </div>
+    </div>
+</div>
 <script>
     function placeOrder() {
         var data = Array();
@@ -190,6 +253,223 @@
                 return;
             }
         })
+    }
+    function getGeography() {
+        getProvince();
+    }
+    function getProvince() {
+        $.ajax({
+            url:'{:url("index/Geography/getProvince")}',
+            data:'get',
+            dataType: 'json',
+            success:function (res) {
+                try{
+                    if(!res.length > 0)
+                    {
+                        layer.msg('省份加载出错,刷新后重试',{icon:5,time:2000});
+                        return;
+                    }
+                    $("#Province").empty();
+                    for(let i=0;i<res.length;i++){
+                        $("#Province").append(
+                            '<option value="'+
+                            res[i].provice_id+
+                            '">'+
+                            res[i].provice_name+
+                            '</option>'
+                        );
+                    }
+                    //初始化城市列表
+                    getCity(res[0].provice_id);
+                }catch (e) {
+                    layer.msg('省份加载出错,刷新后重试',{icon:5,time:2000});
+                    return;
+                }
+            },error:function (res) {
+                layer.msg('省份加载出错,刷新后重试',{icon:5,time:2000});
+                return;
+            }
+        })
+    }
+    function getCity(id) {
+        $.ajax({
+            url:'{:url("index/Geography/getCity")}?province_id='+id,
+            data:'get',
+            dataType: 'json',
+            success:function (res) {
+                try{
+                    if(!res.length > 0)
+                    {
+                        layer.msg('城市列表加载出错,刷新后重试',{icon:5,time:2000});
+                        return;
+                    }
+                    $("#city").empty();
+                    for(let i=0;i<res.length;i++){
+                        $("#city").append(
+                            '<option value="'+
+                            res[i].city_id+
+                            '">'+
+                            res[i].city_name+
+                            '</option>'
+                        );
+                    }
+                    //初始化县级
+                    getCounty(res[0].city_id);
+                }catch (e) {
+                    layer.msg('城市列表加载出错,刷新后重试',{icon:5,time:2000});
+                    return;
+                }
+            },error:function (res) {
+                layer.msg('城市列表加载出错,刷新后重试',{icon:5,time:2000});
+                return;
+            }
+        })
+    }
+    function getCounty(city_id) {
+        $.ajax({
+            url:'{:url("index/Geography/getCounty")}?city_id='+city_id,
+            data:'get',
+            dataType: 'json',
+            success:function (res) {
+                try{
+                    if(!res.length > 0)
+                    {
+                        layer.msg('县/区列表加载出错,刷新后重试',{icon:5,time:2000});
+                        return;
+                    }
+                    $("#county").empty();
+                    for(let i=0;i<res.length;i++){
+                        $("#county").append(
+                            '<option value="'+
+                            res[i].county_id+
+                            '">'+
+                            res[i].county_name+
+                            '</option>'
+                        );
+                    }
+                    getTown(res[0].county_id);
+                }catch (e) {
+                    layer.msg('县/区列表加载出错,刷新后重试',{icon:5,time:2000});
+                    return;
+                }
+            },error:function (res) {
+                layer.msg('县/区列表加载出错,刷新后重试',{icon:5,time:2000});
+                return;
+            }
+        })
+    }
+    function getTown(county_id){
+        $.ajax({
+            url:'{:url("index/Geography/getTown")}?county_id='+county_id,
+            data:'get',
+            dataType: 'json',
+            success:function (res) {
+                try{
+                    if(!res.length > 0)
+                    {
+                        $("#townDiv,#villageDiv").hide();
+                        //不使用下级
+                        $("#town,#village").data('isSet','0');
+                        return;
+                    }
+                    $("#townDiv").show();
+                    $("#town").data('isSet','1');
+                    $("#town").empty();
+                    for(let i=0;i<res.length;i++){
+                        $("#town").append(
+                            '<option value="'+
+                            res[i].town_id+
+                            '">'+
+                            res[i].town_name+
+                            '</option>'
+                        );
+                    }
+                    getVillage(res[0].town_id)
+                }catch (e) {
+                    layer.msg('城镇列表加载出错,刷新后重试',{icon:5,time:2000});
+                    return;
+                }
+            },error:function (res) {
+                layer.msg('城镇列表加载出错,刷新后重试',{icon:5,time:2000});
+                return;
+            }
+        })
+    }
+    function getVillage(town_id){
+        $.ajax({
+            url:'{:url("index/Geography/getVillage")}?town_id='+town_id,
+            data:'get',
+            dataType: 'json',
+            success:function (res) {
+                try{
+                    if(!res.length > 0)
+                    {
+                        $("#villageDiv").hide();
+                        //不使用下级
+                        $("#village").data('isSet','0');
+                        return;
+                    }
+                    $("#villageDiv").show();
+                    $("#village").data('isSet','1');
+                    $("#village").empty();
+                    for(let i=0;i<res.length;i++){
+                        $("#village").append(
+                            '<option value="'+
+                            res[i].village_id+
+                            '">'+
+                            res[i].village_name+
+                            '</option>'
+                        );
+                    }
+                }catch (e) {
+                    layer.msg('村列表加载出错,刷新后重试',{icon:5,time:2000});
+                    return;
+                }
+            },error:function (res) {
+                layer.msg('村列表加载出错,刷新后重试',{icon:5,time:2000});
+                return;
+            }
+        })
+    }
+    $(function () {
+        //选择省份更新城市列表
+        $("#Province").change(function () {
+            getCity(this.value);
+        });
+        //选择城市更新县列表
+        $("#city").change(function () {
+            getCounty(this.value);
+        });
+        //选择县更新城镇列表
+        $("#county").change(function () {
+            getTown(this.value);
+        });
+        //选择镇更新村列表
+        $("#town").change(function () {
+            getVillage(this.value);
+        });
+    })
+    function setReceivingAddress() {
+        //电话号码
+        var telephone = $('#Telephone').val().trim();
+        //详细地址
+        var detailed = $('#detailed').val().trim();
+        //省份
+        var Province =  $("#Province").value;
+        //城市
+        var city = $("#city").value;
+        //县/区
+        var county = $("#county").value;
+        //城镇
+        if($("#town").data('isSet') == 1)
+        {
+            var town = $("#town").value;
+        }
+        //乡村
+        if($("#village").data('isSet') == 1)
+        {
+            var village = $("#village").value;
+        }
     }
 </script>
 {/block}
