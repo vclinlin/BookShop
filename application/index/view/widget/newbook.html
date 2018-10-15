@@ -7,9 +7,10 @@
     {volist name="data" id="data"}
     <div class="col-md-2 col-12 p-3 mt-2">
         <div class="row border-lg">
-            <div class="col-md-12 col-4" style="overflow: hidden;">
+            <div class="col-md-12 col-4 d-flex
+            justify-content-center align-items-center" style="overflow: hidden;">
                 <div class="m-lg-3">
-                    <img    class="img-fluid img-thumbnail"
+                    <img style="width:90px;height: 120px;"   class="img-fluid img-thumbnail"
                             src="{$data.cover==''?'./default_cover/default_cover.png':$url.url.$data.cover}">
                 </div>
             </div>
