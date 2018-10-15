@@ -24,14 +24,14 @@
 {:widget('widgets/main_nav')}
 <div class="container mt-2">
     <div class="pb-2 border-bottom col-12 d-inline-flex justify-content-between align-items-center">
-        <div class="font-weight-bold">选择收货地址:</div>
+        <div class="font-weight-bold">选择收货信息:</div>
         <input type="button" class="btn btn-sm btn-danger" value="管理地址">
     </div>
     <div class="pt-3 pb-3 border-bottom col-12 d-inline-flex align-items-center">
         <div class="input-group">
             <div class="input-group-prepend">
                 <button data-toggle="modal" data-target="#myModal" onclick="getGeography()"
-                        class="btn btn-danger" type="button">使用新地址</button>
+                        class="btn btn-danger" type="button"><i class="fa fa-plus">&nbsp;</i>新地址</button>
             </div>
             <select class="form-control" id="address_id">
                 <option value="0">重庆市-渝北区-电子产业园区[唐玉琳|收](四季花城6-10-2)电话:17683113370</option>
@@ -184,6 +184,10 @@
                         </select>
                     </div>
                     <div class="form-group">
+                        <label for="userName" class="font-weight-bold">收件人:</label>
+                        <input id="userName" type="text" class="form-control"/>
+                    </div>
+                    <div class="form-group">
                         <label for="Telephone" class="font-weight-bold">电话号码:</label>
                         <input id="Telephone" type="text" class="form-control"/>
                     </div>
@@ -196,7 +200,7 @@
 
             <!-- 模态框底部 -->
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" >确定</button>
+                <button type="button" onclick="setReceivingAddress()" class="btn btn-secondary" >确定</button>
             </div>
 
         </div>
@@ -212,9 +216,14 @@
                 'sum':$('#'+this.id).data('sum')
             };
         });
+        if(!$("#address_id").find("option:selected").text().trim()
+            ||$("#address_id").find("option:selected").text().trim()==""){
+            layer.msg('请选择收货信息',{icon:5,time:2000});
+            return;
+        }
         msgData={
             'msg':$("#msg").val().trim(),
-            'address_id':$("#address_id").val(),
+            'address':$("#address_id").find("option:selected").text().trim(),
             'pay':$("#pay").val()
             }
         if(data.length<=0)
@@ -432,6 +441,8 @@
         })
     }
     $(function () {
+        //加载已有地址
+        getAddress();
         //选择省份更新城市列表
         $("#Province").change(function () {
             getCity(this.value);
@@ -450,26 +461,161 @@
         });
     })
     function setReceivingAddress() {
+        //收件人
+        var userName = $("#userName").val().trim();
         //电话号码
         var telephone = $('#Telephone').val().trim();
         //详细地址
         var detailed = $('#detailed').val().trim();
         //省份
-        var Province =  $("#Province").value;
+        var Province =  $("#Province").val();
         //城市
-        var city = $("#city").value;
+        var city = $("#city").val();
         //县/区
-        var county = $("#county").value;
+        var county = $("#county").val();
+        if(!Province>0){
+            layer.msg('请选择有效地区(省/市)');
+            return;
+        }
+        if(!city>0){
+            layer.msg('请选择有效地区(市/区)');
+            return;
+        }
+        if(!county>0){
+            layer.msg('请选择有效地区(县/区)');
+            return;
+        }
+        if(userName ==""||!userName)
+        {
+            layer.msg('请填写收件人姓名');
+            return;
+        }
+        if(!/^1[0-9]{10}$/.test(telephone))
+        {
+            layer.msg('请输入有效的正确号码,接收包裹通知');
+            return;
+        }
+        var data={
+            'user_name':userName,
+            'telephone':telephone,
+            'detailed':detailed,
+            'province_id':Province,
+            'city_id':city,
+            'county_id':county
+        }
         //城镇
         if($("#town").data('isSet') == 1)
         {
-            var town = $("#town").value;
+            var town = $("#town").val();
+            data={
+                'user_name':userName,
+                'telephone':telephone,
+                'detailed':detailed,
+                'province_id':Province,
+                'city_id':city,
+                'county_id':county,
+                'town_id':town
+            }
         }
         //乡村
         if($("#village").data('isSet') == 1)
         {
-            var village = $("#village").value;
+            var village = $("#village").val();
+            data={
+                'user_name':userName,
+                'telephone':telephone,
+                'detailed':detailed,
+                'province_id':Province,
+                'city_id':city,
+                'county_id':county,
+                'town_id':town,
+                'village_id':village
+            }
         }
+        layer.confirm('已确认无误?', {
+            btn: ['确定','再看看'] //按钮
+        }, function(){
+            //异步提交
+            $.ajax({
+                url:'{:url("index/Geography/setReceivingAddress")}',
+                type:'post',
+                dataType:'json',
+                data:{
+                    data
+                }
+                ,success:function (res) {
+                    try {
+                        if(res.state == 200)
+                        {
+                            layer.msg(res.msg,{icon:1,time:2000});
+
+                            return;
+                        }
+                        if(res.state == 400)
+                        {
+                            layer.msg(res.msg,{icon:0,time:2000});
+                            return;
+                        }
+                    }catch (e) {
+                        layer.msg('网络错误,稍后再试',{icon:0,time:2000});
+                        return;
+                    }
+                },error:function (res) {
+                    layer.msg('网络错误,稍后再试',{icon:0,time:2000});
+                    return;
+                }
+            })
+        }, function(){
+            layer.msg('已取消', {time:2000});
+            return;
+        });
+    }
+    //获取收货地址
+    function getAddress()
+    {
+        $.ajax({
+            url:'{:url("index/Geography/getAddress")}',
+            dataType:'json',
+            type:'get',
+            success:function (res) {
+                if(res.length<=0||!res){
+                    $("#address_id").empty().append('<option disabled>请添加新地址</option>');
+                    return;
+                }
+                $("#address_id").empty();
+                for(let i=0;i<res.length;i++)
+                {
+                    if(res[i].state == 1)
+                    {
+                        $("#address_id").append(
+                            '<option value="'+res[i].region.province_name+'">'
+                            +res[i].region.province_name+'-'+
+                            res[i].region.city_name+'-'+
+                            res[i].region.county_name+
+                            res[i].region.county_name+
+                            res[i].region.village_name+
+                            res[i].item.detailed+
+                            '['+ res[i].item.user_name+'|收]'+
+                            '(电话:'+res[i].item.telephone+
+                            ')</option>'
+                        );
+                    }
+                    if(res[i].state == 2)
+                    {
+                        $("#address_id").append(
+                            '<option value="'+res[i].region.province_name+'">'
+                            +res[i].region[0].provice_name+'-'+
+                            res[i].region[0].city_name+'-'+
+                            res[i].region[0].county_name+
+                            res[i].item.detailed+
+                            '['+ res[i].item.user_name+'|收]'+
+                            '(电话:'+res[i].item.telephone+
+                            ')</option>'
+                        );
+                    }
+                }
+            }
+        })
     }
 </script>
 {/block}

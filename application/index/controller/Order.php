@@ -149,7 +149,7 @@ class Order extends Shopping
             'user_id'=>Session::get('user'),
             'msg'=>htmlentities($msg['msg']),
             'pay'=>$msg['pay'],
-            'address_id'=>$msg['address_id']
+            'address'=>htmlentities($msg['address'])
         ];
         $model = new Order_book();
         if(!$model->insert($orderAry))
