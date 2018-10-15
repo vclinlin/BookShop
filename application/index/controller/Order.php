@@ -18,10 +18,17 @@ use think\Session;
 class Order extends Shopping
 {
     protected $beforeActionList = [
+        'checkorder',
         'checklogin'  =>  [
             'except'=>''
         ],
     ];
+    protected function checkOrder(){
+        //清理过期订单
+        $model = new Order_book();
+        $model->where('create_time','<',time()-600)
+            ->where(['pay_state'=>0])->update(['order_state'=>2,'expiry_time'=>time()]);
+    }
     public function addOrder($data,$count=0){
         //获取购物车数据
         $cart_model = new Shopping_cart();
@@ -175,7 +182,6 @@ class Order extends Shopping
         ]);
         return;
     }
-
     public function payOrder($order_number=null)
     {
         //展示所有订单
