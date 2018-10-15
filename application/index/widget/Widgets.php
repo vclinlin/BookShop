@@ -118,4 +118,23 @@ class Widgets extends Controller
         $this->assign('img',$model->get(['Id'=>1]));
         return $this->fetch('widget/retrieval');
     }
+
+    public function getBookName($str,$sum)
+    {
+        $data = explode(',',$str);
+        $sum = explode(',',$sum);
+        $model = new Books();
+        $rel = [];
+        foreach ($data as $i){
+            if(!$cache=$model->get(['Id'=>$i]))
+            {
+                $rel[]='《未知书籍》';
+                continue;
+            }
+            $rel[] = '《'.$cache['bookname'].'》';
+        }
+        $this->assign('bookData',$rel);
+        $this->assign('sum',$sum);
+        return $this->fetch('widget/get_book_name');
+    }
 }

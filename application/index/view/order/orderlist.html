@@ -22,16 +22,78 @@
 </div>
 <!--nav预留位-->
 {:widget('widgets/main_nav')}
-<div class="container border-top" style="min-height: 500px;">
-    <div class="list-group mt-3">
-        <div class="list-group-item bg-">ceshi</div>
+<div class="container" style="min-height: 500px;">
+    <div class="row">
+        <div class="d-inline-flex col-12 justify-content-start border-bottom
+        align-items-center mt-3 pb-1 font-weight-bold">
+            <a href='{:url("index/Order/payOrder")}'>我的订单:</a>
+        </div>
+    </div>
+    <div class="accordion mt-3" id="accordion">
     {if !$order_data || count($order_data)==0}
-        <div class="list-group-item list-group-item-secondary">ceshi</div>
+
     {else}
-        <div class="list-group-item list-group-item-secondary">ceshi</div>
+        {volist name="order_data" id="order_data"$key}
+        <div class="card">
+            <div class="card-header d-inline-flex justify-content-between
+             justify-content-center align-items-center">
+                <strong>订单编号:{$order_data.order_number}
+                    <span class="text-danger">(￥{$order_data.money})</span>
+                </strong>
+                <a class="card-link" data-toggle="collapse" href="#collapseOne{$key}">
+                    详情.....
+                </a>
+            </div>
+            <div id="collapseOne{$key}" class="collapse {$key == 0?'show':''}" data-parent="#accordion">
+                <div class="card-body">
+                    <div class="col-12 d-inline-flex border">
+                        {:widget('Widgets/getBookName',['str'=>$order_data.books_id,'sum'=>$order_data.books_sum])}
+                        <div class="border-left  ml-3 pl-3">
+                            <dl>
+                                <dd>订单编号 : <span class="text-danger font-weight-bold">{$order_data.order_number}</span></dd>
+                                <dd>创建时间 : <span class="text-danger font-weight-bold">{$order_data.create_time}</span></dd>
+                                <dd>订单备注 : <span class="text-danger font-weight-bold">{$order_data.msg ==""?"无":$order_data.msg}</span></dd>
+                                <dd>支付方式 : <span class="text-danger font-weight-bold">{$order_data.pay==0?'在线支付':货到付款}</span></dd>
+                                <dd>快递单号 : <span class="text-danger font-weight-bold">{$order_data.express ==""?"无":$order_data.express}</span></dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-1 d-inline-flex align-items-center">
+                        <strong>收货信息 : {$order_data.address}</strong>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 mt-1 d-inline-flex justify-content-end
+                        align-items-center">
+                            {if $order_data.pay_state == 1}
+                                {if $order_data.order_state==3}
+                                <button class="btn btn-sm btn-success">已支付</button>
+                                {else}
+                                <button onclick="logistics({$order_data.Id})" class="btn btn-sm btn-success">查看物流</button>
+                                {/if}
+                            {else}
+                                {if $order_data.order_state==3}
+                                <button class="btn btn-sm btn-success">已完成</button>
+                                {/if}
+                                {if $order_data.order_state==2}
+                                <button class="btn btn-sm btn-light">已过期</button>
+                                {/if}
+                                {if $order_data.order_state==1}
+                                <button class="btn btn-sm btn-light">已取消</button>
+                                {/if}
+                                {if $order_data.order_state==0}
+                                <button onclick="Pay({$order_data.Id})" class="btn btn-sm btn-danger">待支付</button>
+                                {/if}
+                            {/if}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {/volist}
     {/if}
     </div>
 </div>
+
 <div class="col-12 bg-dark mt-2">
     <div class="container">
         <div class="row">

@@ -185,10 +185,17 @@ class Order extends Shopping
             //按订单时间排序
             $order_data= $order_model->where(['user_id'=>Session::get('user')])
                 ->order('create_time','desc')
-                ->select();
+                ->paginate('10');
             $this->assign('order_data',$order_data);
-            return $this->fetch('orderlist');
+            $this->assign('page',$order_data->render());
+        }else{
+            //指定订单
+            $order_data= $order_model->where(['user_id'=>Session::get('user'),
+                'order_number'=>$order_number])
+                ->paginate('10');
+            $this->assign('order_data',$order_data);
+            $this->assign('page',$order_data->render());
         }
-        echo $order_number;
+        return $this->fetch('orderlist');
     }
 }

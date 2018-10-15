@@ -1,0 +1,12 @@
+<div class="d-inline-flex justify-content-between align-items-center">
+    <dl>
+        {volist id="bookData" name="bookData" $key}
+        <dd>{$key+1}.{$bookData}</dd>
+        {/volist}
+    </dl>
+    <dl>
+        {volist id="sum" name="sum" $key}
+        <dd>&nbsp;x&nbsp;{$sum}</dd>
+        {/volist}
+    </dl>
+</div>
