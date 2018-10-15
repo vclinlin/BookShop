@@ -130,8 +130,7 @@ class Geography extends Shopping
         ]);
         return;
     }
-
-    public function getAddress()
+    protected function getAddressData()
     {
         //按类获取地址
         $county = new J_position_county();
@@ -172,7 +171,35 @@ class Geography extends Shopping
                 continue;
             }
         }
-        echo json_encode($addressData);
+        return ($addressData);
+    }
+    public function getAddress()
+    {
+        echo json_encode($this->getAddressData());
+        return;
+    }
+    //地址管理
+    public function myAddress()
+    {
+        $this->assign('data',$this->getAddressData());
+        return $this->fetch();
+    }
+
+    public function delAddress($Id)
+    {
+        $model = new Receiving_address();
+        if(!$model->where(['Id'=>$Id,'user_id'=>Session::get('user')])
+        ->delete()){
+            echo json_encode([
+                'state'=>400,
+                'msg'=>'删除失败'
+            ]);
+            return;
+        }
+        echo json_encode([
+            'state'=>200,
+            'msg'=>'已删除'
+        ]);
         return;
     }
 }

@@ -148,7 +148,7 @@ class Order extends Shopping
             'create_time'=>time(),
             'user_id'=>Session::get('user'),
             'msg'=>htmlentities($msg['msg']),
-            'pay'=>$msg['pay'],
+            'pay'=>$msg['pay']==0?0:1,
             'address'=>htmlentities($msg['address'])
         ];
         $model = new Order_book();

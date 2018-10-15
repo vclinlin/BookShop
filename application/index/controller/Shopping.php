@@ -164,7 +164,6 @@ class Shopping extends Controller
                 //不存在cookie购物车信息
                 $this->assign('cartData',[]);
                 return $this->fetch();
-                return;
             }
             //存在cookie购物车信息
             $data = Cookie::get('cartAry');
