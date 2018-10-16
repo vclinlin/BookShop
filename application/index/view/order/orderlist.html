@@ -66,13 +66,13 @@
                         align-items-center">
                             {if $order_data.pay_state == 1}
                                 {if $order_data.order_state==3}
-                                <button class="btn btn-sm btn-success">已支付</button>
+                                    <button class="btn btn-sm btn-success">已完成</button>
                                 {else}
-                                <button onclick="logistics({$order_data.Id})" class="btn btn-sm btn-success">查看物流</button>
+                                    <button onclick="logistics({$order_data.Id})" class="btn btn-sm btn-success">查看物流</button>
                                 {/if}
                             {else}
                                 {if $order_data.order_state==3}
-                                <button class="btn btn-sm btn-success">已完成</button>
+                                <button class="btn btn-sm btn-danger">订单异常</button>
                                 {/if}
                                 {if $order_data.order_state==2}
                                 <button class="btn btn-sm btn-light">于({:date('Y-m-d H:i:s',strtotime($order_data.create_time)+600)})已过期</button>
@@ -81,7 +81,10 @@
                                 <button class="btn btn-sm btn-light">已取消</button>
                                 {/if}
                                 {if $order_data.order_state==0}
+                                <div class="btn-group btn-group-sm">
                                 <button onclick="Pay({$order_data.Id})" class="btn btn-sm btn-danger">待支付</button>
+                                <button onclick="cancel({$order_data.Id})" class="btn btn-sm btn-primary">取消</button>
+                                </div>
                                 {/if}
                             {/if}
                         </div>
