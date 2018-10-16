@@ -53,7 +53,7 @@
                                 <dd>订单编号 : <span class="text-danger font-weight-bold">{$order_data.order_number}</span></dd>
                                 <dd>创建时间 : <span class="text-danger font-weight-bold">{$order_data.create_time}</span></dd>
                                 <dd>订单备注 : <span class="text-danger font-weight-bold">{$order_data.msg ==""?"无":$order_data.msg}</span></dd>
-                                <dd>支付方式 : <span class="text-danger font-weight-bold">{$order_data.pay==0?'在线支付':货到付款}</span></dd>
+                                <dd>支付方式 : <span class="text-danger font-weight-bold">{$order_data.pay==0?'在线支付':'货到付款'}</span></dd>
                                 <dd>快递单号 : <span class="text-danger font-weight-bold">{$order_data.express ==""?"无":$order_data.express}</span></dd>
                             </dl>
                         </div>
