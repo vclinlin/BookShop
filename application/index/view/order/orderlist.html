@@ -144,6 +144,8 @@
                     $("#order_money").empty().append(res.money);
                     $("#freight").empty().append(res.freight);
                     $("#sum").empty().append(Number(res.freight)+Number(res.money));
+                    $("#freight").data('Id',Id);
+                    $("#order_money").data('money',res.money);
                     $("#myModal").modal();
                     return;
                 }
@@ -160,5 +162,40 @@
             }
         },'json');
     }
+    $(function () {
+        $("#pay").click(function () {
+            var pay_pass =$("#payPwd").val().trim();
+
+            if(!/^[0-9A-Za-z]{6,16}$/.test(pay_pass))
+            {
+                layer.msg('支付密码仅支持6-16位数字或字母');
+                return;
+            }
+            $.ajax({
+                url:'{:url("index/Order/payment")}',
+                type:'post',
+                dataType:'json',
+                data:{
+                    'payPwd':pay_pass,
+                    'Id':$("#freight").data('Id'),
+                    'money':$("#order_money").data('money')
+                },success:function (res) {
+                    if(res.state==200)
+                    {
+                        layer.msg('支付成功',{icon:1,time:2000});
+                        return;
+                    }
+                    if(res.state==400)
+                    {
+                        layer.msg(res.msg,{icon:0,time:2000});
+                        return;
+                    }
+                },error:function () {
+                    layer.msg('网络错误',{icon:0});
+                    return;
+                }
+            })
+        });
+    })
 </script>
 {/block}

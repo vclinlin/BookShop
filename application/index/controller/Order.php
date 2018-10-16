@@ -10,6 +10,7 @@ namespace app\index\controller;
 
 
 use app\index\model\Books;
+use app\index\model\Flow_sheet;
 use app\index\model\Freight;
 use app\index\model\Order_book;
 use app\index\model\Ordinary_users;
@@ -289,7 +290,7 @@ class Order extends Shopping
     public function payment($Id,$money=null,$payPwd=null)
     {
         $model = new Order_book();
-        if($money==null)
+        if($money==null||$payPwd==null)
         {
             //返回价格
             if(!$data = $model->get(['user_id'=>Session::get('user'),'Id'=>$Id,'order_state'=>0,'pay_state'=>0]))
@@ -313,8 +314,9 @@ class Order extends Shopping
             ]);
             return;
         }else{
-            if(!$data = $model->get(['user_id'=>Session::get('user'),
-                'Id'=>$Id,'order_state'=>0,'pay_state'=>0,'money'=>$money]))
+            //商品验证
+            if(!$order = $model->get(['user_id'=>Session::get('user'),
+                'Id'=>$Id,'order_state'=>0,'pay_state'=>0]))
             {
                 echo json_encode([
                     'state'=>400,
@@ -322,6 +324,92 @@ class Order extends Shopping
                 ]);
                 return;
             }
+            //支付密码验证
+            $pay_pass = md5(md5(Session::get('user')).md5($payPwd).md5('!@#$%^&*()_+'));
+            if(!$user = Ordinary_users::get(['userid'=>Session::get('user'),
+                "pay_pass"=>$pay_pass]))
+            {
+                echo json_encode([
+                    'state'=>400,
+                    'msg'=>'密码错误'
+                ]);
+                return;
+            }
+            //物流价格
+            if(!$rel = Freight::get(['pay_id'=>$order['pay']]))
+            {
+                $freight = 0;
+            }else{
+                $freight = $rel['money'];
+            }
+            if($user['user_money']<=0||$user['user_money']<$order['money']+$freight)
+            {
+                echo json_encode([
+                    'state'=>400,
+                    'msg'=>'余额不足'
+                ]);
+                return;
+            }
+            //账户余额足够,扣除相应金额,更新订单状态
+            $user_model = new Ordinary_users();
+            if(!$user_model->where(['userid'=>Session::get('user')])
+            ->setDec('user_money',$order['money']+$freight))
+            {
+                echo json_encode([
+                    'state'=>400,
+                    '支付失败,稍后再试'
+                ]);
+                return;
+            }
+            if(!$model->where(['Id'=>$Id])->update(['pay_state'=>1]))
+            {
+                //金额还原
+                $user_model->where(['userid'=>Session::get('user')])
+                    ->setInc('user_money',$order['money']+$freight);
+                echo json_encode([
+                    'state'=>400,
+                    '支付失败,稍后再试'
+                ]);
+                return;
+            }
+            //产生流水号
+            $str = "";
+            while (strlen($str)<8)
+            {
+                $str .= rand(1,2)==1?chr(rand(65,90)):chr(rand(97,122));
+            }
+            $flow_number = str_shuffle($str.time());
+            //生成流水信息
+            $flow = [
+                //订单编号
+                'order_number'=>$order['order_number'],
+                //流水号
+                'flow_number'=>$flow_number,
+                //流水金额
+                'flow_money'=>'-'.($order['money']+$freight),
+                //流水信息
+                'msg'=>'购买商品',
+                //用户id
+                'user_id'=>Session::get('user')
+            ];
+            $flow_sheet = new Flow_sheet();
+            if(!$flow_sheet->insert($flow))
+            {
+                //订单与金额还原
+                $model->where(['Id'=>$Id])->update(['pay_state'=>0]);
+                $user_model->where(['userid'=>Session::get('user')])
+                    ->setInc('user_money',$order['money']+$freight);
+                echo json_encode([
+                    'state'=>400,
+                    '支付失败,稍后再试'
+                ]);
+                return;
+            }
+            echo json_encode([
+                'state'=>200,
+                '支付成功'
+            ]);
+            return;
         }
     }
 }
