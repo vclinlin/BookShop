@@ -182,7 +182,9 @@
                 },success:function (res) {
                     if(res.state==200)
                     {
-                        layer.msg('支付成功',{icon:1,time:2000});
+                        layer.msg(res.msg,{icon:1,time:2000},function () {
+                            window.location.reload();
+                        });
                         return;
                     }
                     if(res.state==400)

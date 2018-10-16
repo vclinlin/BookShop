@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="设置支付密码">
-      <change afterPath="$PROJECT_DIR$/application/index/model/Flow_sheet.php" afterDir="false" />
+    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="商品购买流程完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Order.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/view/order/orderlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/order/orderlist.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,18 +101,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="12908" />
+          <entry key="html" value="12929" />
           <entry key="js" value="71" />
           <entry key="php" value="8343" />
-          <entry key="txt" value="232" />
+          <entry key="txt" value="243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="12908" />
+          <entry key="HTML" value="12929" />
           <entry key="JavaScript" value="71" />
           <entry key="PHP" value="8343" />
-          <entry key="PLAIN_TEXT" value="232" />
+          <entry key="PLAIN_TEXT" value="243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -126,11 +124,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/index/view/order/orderlist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="178" column="21" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+            <state relative-caret-position="321">
+              <caret line="185" column="53" selection-start-line="185" selection-start-column="53" selection-end-line="185" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="e#5110#5117#1" expanded="true" />
@@ -139,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="412" column="9" lean-forward="true" selection-start-line="412" selection-start-column="9" selection-end-line="412" selection-end-column="9" />
+            <state relative-caret-position="633">
+              <caret line="411" column="19" lean-forward="true" selection-start-line="411" selection-start-column="19" selection-end-line="411" selection-end-column="19" />
               <folding>
                 <element signature="e#123#149#0#PHP" expanded="true" />
               </folding>
@@ -216,9 +214,9 @@
         <option value="$PROJECT_DIR$/application/index/view/order/setpaypwd.html" />
         <option value="$PROJECT_DIR$/application/index/view/order/editpaypwd.html" />
         <option value="$PROJECT_DIR$/application/index/view/widget/head_nav.html" />
-        <option value="$PROJECT_DIR$/application/index/view/order/orderlist.html" />
         <option value="$PROJECT_DIR$/application/index/model/Flow_sheet.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Order.php" />
+        <option value="$PROJECT_DIR$/application/index/view/order/orderlist.html" />
       </list>
     </option>
   </component>
@@ -476,7 +474,7 @@
       <workItem from="1539621293717" duration="1019000" />
       <workItem from="1539622366184" duration="39000" />
       <workItem from="1539622714274" duration="534000" />
-      <workItem from="1539662636178" duration="17171000" />
+      <workItem from="1539662636178" duration="18083000" />
     </task>
     <task id="LOCAL-00001" summary="完成cookie购物车">
       <created>1539270811979</created>
@@ -660,11 +658,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539686113564</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="商品购买流程完成">
+      <created>1539690794316</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1539690794316</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288235000" />
+    <option name="totallyTimeSpent" value="289147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -725,7 +730,8 @@
     <MESSAGE value="完成清理过期订单" />
     <MESSAGE value="优化过期订单显示" />
     <MESSAGE value="设置支付密码" />
-    <option name="LAST_COMMIT_MESSAGE" value="设置支付密码" />
+    <MESSAGE value="商品购买流程完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品购买流程完成" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vendor/topthink/think-captcha/src/Captcha.php">
@@ -1039,17 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/order/orderlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="178" column="21" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#5110#5117#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/model/Flow_sheet.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1059,10 +1054,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="412" column="9" lean-forward="true" selection-start-line="412" selection-start-column="9" selection-end-line="412" selection-end-column="9" />
+        <state relative-caret-position="633">
+          <caret line="411" column="19" lean-forward="true" selection-start-line="411" selection-start-column="19" selection-end-line="411" selection-end-column="19" />
           <folding>
             <element signature="e#123#149#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/order/orderlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="185" column="53" selection-start-line="185" selection-start-column="53" selection-end-line="185" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#5110#5117#1" expanded="true" />
           </folding>
         </state>
       </provider>
