@@ -1,0 +1,93 @@
+{extend name="layout"/}
+
+    {block name="title"}<title>设置支付密码</title>{/block}
+
+    {block name="static"}
+    <link rel="stylesheet" href="__CSS__/index/index.css">
+    {/block}
+
+{block name="body"}
+<!-- 头部 -->
+<div class="container-fluid bg-light">
+        <div class="col-12 bg-light">
+            <!--顶部菜单-->
+            {:widget('widgets/head_nav')}
+        </div>
+    <div class="row">
+        <div class="col-12 bg-white">
+            <!--搜索预留位-->
+            {:widget('widgets/retrieval')}
+        </div>
+    </div>
+</div>
+<!--nav预留位-->
+{:widget('widgets/main_nav')}
+<div class="container-fluid bg-info" style="min-height: 500px;">
+    <div class="container py-lg-5">
+        <div class="col-lg-6 bg-white p-4 ">
+            <form  id="reFrom">
+                <div class="form-group">
+                    <label for="pass">用户密码:</label>
+                    <input type="password" class="form-control" name="pass"
+                           id="user_pass" placeholder="Enter password">
+                </div>
+                <div class="form-group">
+                    <label for="pass">新支付密码:</label>
+                    <input type="password" class="form-control" name="pass" id="pass" placeholder="Enter password">
+                </div>
+                <div class="form-group">
+                    <label for="repass">确定密码:</label>
+                    <input type="password" class="form-control" name="repass" id="repass" placeholder="Enter password">
+                </div>
+                <button type="button" onclick="setPay()"  class="btn btn-primary">确定</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="col-12 bg-dark">
+    <div class="container">
+        <div class="row">
+            {:widget('Widgets/about')}
+        </div>
+    </div>
+</div>
+<script>
+    function setPay(){
+        var pay_pass = $("#pass").val().trim();
+        var rePass = $("#repass").val().trim();
+        var user_pass = $("#user_pass").val().trim();
+        if(!/^[0-9A-Za-z]{6,16}$/.test(pay_pass))
+        {
+            layer.msg('支付密码仅支持6-16位数字或字母');
+            return;
+        }
+        if(pay_pass !== rePass)
+        {
+            layer.msg('两次密码输入不一致');
+            return;
+        }
+        $.ajax({
+            url:"{:url('index/Order/setPayPass')}",
+            dataType:'json',
+            type:'post',
+            data:{
+                pay_pass,
+                user_pass
+            },success:function (res) {
+                if(res.state == 200)
+                {
+                    layer.msg(res.msg,{icon:1,time:2000},function () {
+                        window.location.reload();
+                    })
+                    return;
+                }
+                if(res.state == 400)
+                {
+                    layer.msg(res.msg+',用户密码错误或没做改变',{icon:0,time:2000})
+                    return;
+                }
+            }
+        });
+    }
+</script>
+{/block}

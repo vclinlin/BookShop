@@ -9,6 +9,18 @@ $(function () {
     $(".pager").attr('class','pagination');
     $(".pagination").find('span,a').attr('class','page-link');
     $(".pagination").find('li').attr('class','page-item');
+    //优化底部菜单
+    try{
+        $(window).resize(function () {
+            if($(window).width()<720)
+            {
+                $("#mobileNav").addClass('d-inline-flex');
+            }else {
+                $("#mobileNav").removeClass('d-inline-flex');
+            }
+        });
+    }catch (e) {
+    }
 })
 /**
  * 添加购物车,公共事件

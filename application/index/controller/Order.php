@@ -10,7 +10,9 @@ namespace app\index\controller;
 
 
 use app\index\model\Books;
+use app\index\model\Freight;
 use app\index\model\Order_book;
+use app\index\model\Ordinary_users;
 use app\index\model\Shopping_cart;
 use think\Exception;
 use think\Session;
@@ -22,7 +24,86 @@ class Order extends Shopping
         'checklogin'  =>  [
             'except'=>''
         ],
+        'paypwd'=>[
+            'except'=>'setpaypwd,ispaypwd,setpaypass'
+        ]
     ];
+    protected function ispayPwd(){
+        $model = new Ordinary_users();
+        $rel = $model->field('pay_pass')->where(['userid'=>Session::get('user'),
+            'pass'=>Session::get('pass')])->select();
+        if($rel[0]['pay_pass']==""||!$rel[0])
+        {
+            return false;
+        }else{
+            return true;
+        }
+    }
+    protected function payPwd(){
+        if(!$this->ispayPwd())
+        {
+            return $this->redirect('index/Order/setPayPwd');
+        }
+    }
+    public function setPayPwd(){
+        if($this->ispayPwd())
+        {
+            //修改支付密码
+            return $this->fetch('editpaypwd');
+        }else{
+            return $this->fetch();
+        }
+    }
+    //设置密码
+    public function setPayPass($pay_pass,$user_pass=null)
+    {
+        $model = new Ordinary_users();
+        if(!$pay_pass||$pay_pass=="")
+        {
+            echo json_encode([
+                'state'=>400,
+                'msg'=>'设置失败'
+            ]);
+            return;
+        }
+        //加密
+        $pay_pass = md5(md5(Session::get('user')).md5($pay_pass).md5('!@#$%^&*()_+'));
+        //未设置
+        if(!$this->ispayPwd()) {
+            if (!$model->where(['userid' => Session::get('user'),
+                'pass' => Session::get('pass')])->update(['pay_pass' => $pay_pass])) {
+                echo json_encode([
+                    'state' => 400,
+                    'msg' => '设置失败'
+                ]);
+                return;
+            }
+            echo json_encode([
+                'state' => 200,
+                'msg' => '设置成功'
+            ]);
+            return;
+        }
+        //修改密码
+        if($this->ispayPwd()&&$user_pass!=null)
+        {
+            $pass = md5(md5(Session::get('user')).md5($user_pass).md5('!@#$%^&*()_+'));
+            if (!$model->where(['userid' => Session::get('user'),
+                'pass' =>$pass])
+                ->update(['pay_pass' => $pay_pass])) {
+                echo json_encode([
+                    'state' => 400,
+                    'msg' => '设置失败'
+                ]);
+                return;
+            }
+            echo json_encode([
+                'state' => 200,
+                'msg' => '设置成功'
+            ]);
+            return;
+        }
+    }
     protected function checkOrder(){
         //清理过期订单
         $model = new Order_book();
@@ -203,5 +284,44 @@ class Order extends Shopping
             $this->assign('page',$order_data->render());
         }
         return $this->fetch('orderlist');
+    }
+    //支付
+    public function payment($Id,$money=null,$payPwd=null)
+    {
+        $model = new Order_book();
+        if($money==null)
+        {
+            //返回价格
+            if(!$data = $model->get(['user_id'=>Session::get('user'),'Id'=>$Id,'order_state'=>0,'pay_state'=>0]))
+            {
+                echo json_encode([
+                    'state'=>400,
+                    'msg'=>'待支付订单不存在,或已失效'
+                ]);
+                return;
+            }
+            if(!$rel = Freight::get(['pay_id'=>$data['pay']]))
+            {
+                $freight = 0;
+            }else{
+                $freight = $rel['money'];
+            }
+            echo json_encode([
+                'state'=>200,
+                'money'=>$data['money'],
+                'freight'=>$freight
+            ]);
+            return;
+        }else{
+            if(!$data = $model->get(['user_id'=>Session::get('user'),
+                'Id'=>$Id,'order_state'=>0,'pay_state'=>0,'money'=>$money]))
+            {
+                echo json_encode([
+                    'state'=>400,
+                    'msg'=>'待支付订单不存在,或已失效'
+                ]);
+                return;
+            }
+        }
     }
 }

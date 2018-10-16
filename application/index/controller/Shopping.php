@@ -21,7 +21,7 @@ class Shopping extends Controller
 {
     protected $beforeActionList = [
         'checklogin'  =>  [
-            'except'=>'addshoppingcart,shoppingcart,upcart,delcart,clearcart'
+            'except'=>'addshoppingcart,shoppingcart,upcart,delcart,clearcart,'
         ],
     ];
     public function checkLogin()  //权限控制(必须登录)

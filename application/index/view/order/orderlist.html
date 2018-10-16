@@ -103,6 +103,62 @@
         </div>
     </div>
 </div>
+<!-- 附件 -->
+<div class="modal fade" id="myModal" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <!-- 模态框头部 -->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- 模态框主体 -->
+            <div class="modal-body">
+                <dl class="border-bottom">
+                    <dt class="pb-2 mb-1">详细清单:</dt>
+                    <dd>商品金额:<span id="order_money" class="ml-1 text-danger"></span></dd>
+                    <dd>运费:<span id="freight" class="ml-1 text-danger"></span></dd>
+                    <dd>合计:<span id="sum" class="ml-1 text-danger"></span></dd>
+                </dl>
+                <form>
+                    <label for="payPwd">支付密码:</label>
+                    <div class="input-group">
+                        <input type="password" id="payPwd"
+                               class="form-control form-control-sm"/>
+                        <div class="input-group-append">
+                            <button id="pay" class="btn btn-danger" type="button">确定</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 <script>
+    function Pay(Id) {
+        $.get('{:url("index/Order/payment")}?Id='+Id,function (res) {
+            try{
+                if(res.state==200)
+                {
+                    $("#order_money").empty().append(res.money);
+                    $("#freight").empty().append(res.freight);
+                    $("#sum").empty().append(Number(res.freight)+Number(res.money));
+                    $("#myModal").modal();
+                    return;
+                }
+                if(res.state==400)
+                {
+                    layer.alert(res.msg,{icon: 0});
+                    return;
+                }
+                layer.alert('网络故障,刷新重试',{icon: 0});
+                window.location.reload();
+            }catch (e) {
+                layer.alert('网络故障,刷新重试',{icon: 0});
+                window.location.reload();
+            }
+        },'json');
+    }
 </script>
 {/block}
