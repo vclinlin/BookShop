@@ -407,7 +407,7 @@ class Order extends Shopping
             }
             echo json_encode([
                 'state'=>200,
-                '支付成功'
+                'msg'=>'支付成功'
             ]);
             return;
         }
