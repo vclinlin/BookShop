@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="完成清理过期订单">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Order.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/view/order/orderlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/order/orderlist.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,12 +71,12 @@
     <session id="1807094656">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="4" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -102,7 +101,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="11268" />
+          <entry key="html" value="11306" />
           <entry key="js" value="70" />
           <entry key="php" value="6254" />
           <entry key="txt" value="212" />
@@ -110,7 +109,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="11268" />
+          <entry key="HTML" value="11306" />
           <entry key="JavaScript" value="70" />
           <entry key="PHP" value="6254" />
           <entry key="PLAIN_TEXT" value="212" />
@@ -125,11 +124,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/index/view/order/orderlist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="69" />
+            <state relative-caret-position="494">
+              <caret line="77" column="130" selection-start-line="77" selection-start-column="130" selection-end-line="77" selection-end-column="130" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -146,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="546">
+              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding>
                 <element signature="e#123#149#0#PHP" expanded="true" />
               </folding>
@@ -387,15 +386,15 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\view\index" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Vc_PHP\Apache24\htdocs\BookShop\application\index\view\geography" />
       <recent name="D:\Vc_PHP\Apache24\htdocs\BookShop\public\static\jquery\select" />
       <recent name="D:\Vc_PHP\Apache24\htdocs\BookShop\application\index\view\order" />
       <recent name="D:\Vc_PHP\Apache24\htdocs\BookShop\application\index\view\shopping" />
       <recent name="D:\Vc_PHP\Apache24\htdocs\Bookstore\shop\public\static" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\view\index" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -471,7 +470,8 @@
       <workItem from="1539609501945" duration="11508000" />
       <workItem from="1539621293717" duration="1019000" />
       <workItem from="1539622366184" duration="39000" />
-      <workItem from="1539622714274" duration="495000" />
+      <workItem from="1539622714274" duration="534000" />
+      <workItem from="1539662636178" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="完成cookie购物车">
       <created>1539270811979</created>
@@ -634,17 +634,24 @@
       <option name="project" value="LOCAL" />
       <updated>1539622255600</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="完成清理过期订单">
+      <created>1539623222983</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1539623222983</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271025000" />
+    <option name="totallyTimeSpent" value="271479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35980812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36353946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1011,22 +1018,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/order/orderlist.html">
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="69" />
+        <state relative-caret-position="546">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#123#149#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
+    <entry file="file://$PROJECT_DIR$/application/index/view/order/orderlist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="494">
+          <caret line="77" column="130" selection-start-line="77" selection-start-column="130" selection-end-line="77" selection-end-column="130" />
           <folding>
-            <element signature="e#123#149#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

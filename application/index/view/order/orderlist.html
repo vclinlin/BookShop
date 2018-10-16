@@ -75,7 +75,7 @@
                                 <button class="btn btn-sm btn-success">已完成</button>
                                 {/if}
                                 {if $order_data.order_state==2}
-                                <button class="btn btn-sm btn-light">已过期</button>
+                                <button class="btn btn-sm btn-light">于({:date('Y-m-d H:i:s',strtotime($order_data.create_time)+600)})已过期</button>
                                 {/if}
                                 {if $order_data.order_state==1}
                                 <button class="btn btn-sm btn-light">已取消</button>
