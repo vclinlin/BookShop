@@ -31,7 +31,9 @@
     </div>
     <div class="accordion mt-3" id="accordion">
     {if !$order_data || count($order_data)==0}
-
+        <div class="col-12 text-center mt-2">
+            还没有订单
+        </div>
     {else}
         {volist name="order_data" id="order_data"$key}
         <div class="card">
@@ -202,5 +204,27 @@
             })
         });
     })
+    function cancel(id) {
+        layer.confirm('是否取消订单?', {
+            btn: ['是','否'] //按钮
+        }, function() {
+            $.get('{:url("index/Order/cancel")}', {"Id": id}, function (res) {
+                if(res.state==200)
+                {
+                    layer.msg(res.msg,{icon:1,time:2000},function () {
+                        window.location.reload();
+                    });
+                    return;
+                }
+                if(res.state==400)
+                {
+                    layer.msg(res.msg,{icon:0,time:2000});
+                    return;
+                }
+            }, 'json');
+        },function () {
+            return false;
+        });
+    }
 </script>
 {/block}

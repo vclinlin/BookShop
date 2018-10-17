@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="修复订单页的异常显示">
+    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="订单页优化3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/controller/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/order/addorder.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/order/addorder.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/view/order/orderlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/order/orderlist.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,18 +73,18 @@
     <session id="1807094656">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="7" />
+          <entry key="project.open.time.7" value="8" />
           <entry key="project.open.time.8" value="4" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
-          <entry key="html" value="55" />
+          <entry key="html" value="59" />
           <entry key="js" value="13" />
           <entry key="php" value="33" />
           <entry key="rnc" value="1" />
@@ -93,7 +94,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="55" />
+          <entry key="HTML" value="59" />
           <entry key="JavaScript" value="13" />
           <entry key="PHP" value="33" />
           <entry key="RNG Compact" value="1" />
@@ -102,18 +103,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="12999" />
+          <entry key="html" value="13262" />
           <entry key="js" value="71" />
-          <entry key="php" value="8350" />
-          <entry key="txt" value="260" />
+          <entry key="php" value="8542" />
+          <entry key="txt" value="264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="12999" />
+          <entry key="HTML" value="13262" />
           <entry key="JavaScript" value="71" />
-          <entry key="PHP" value="8350" />
-          <entry key="PLAIN_TEXT" value="260" />
+          <entry key="PHP" value="8542" />
+          <entry key="PLAIN_TEXT" value="264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -128,23 +129,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/index/view/order/orderlist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+            <state relative-caret-position="633">
+              <caret line="227" column="5" lean-forward="true" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="e#5110#5117#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="405" column="23" selection-start-line="405" selection-start-column="23" selection-end-line="405" selection-end-column="23" />
-              <folding>
-                <element signature="e#123#149#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,7 +188,6 @@
         <option value="$PROJECT_DIR$/application/index/model/J_position_village.php" />
         <option value="$PROJECT_DIR$/application/index/model/Receiving_address.php" />
         <option value="$PROJECT_DIR$/application/index/model/J_position.php" />
-        <option value="$PROJECT_DIR$/application/index/view/order/addorder.html" />
         <option value="$PROJECT_DIR$/application/index/controller/Geography.php" />
         <option value="$PROJECT_DIR$/application/index/view/geography/myaddress.html" />
         <option value="$PROJECT_DIR$/application/index/widget/Widgets.php" />
@@ -216,8 +203,9 @@
         <option value="$PROJECT_DIR$/application/index/view/order/editpaypwd.html" />
         <option value="$PROJECT_DIR$/application/index/view/widget/head_nav.html" />
         <option value="$PROJECT_DIR$/application/index/model/Flow_sheet.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/Order.php" />
+        <option value="$PROJECT_DIR$/application/index/view/order/addorder.html" />
         <option value="$PROJECT_DIR$/application/index/view/order/orderlist.html" />
+        <option value="$PROJECT_DIR$/application/index/controller/Order.php" />
       </list>
     </option>
   </component>
@@ -269,109 +257,6 @@
             <path>
               <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -475,7 +360,8 @@
       <workItem from="1539621293717" duration="1019000" />
       <workItem from="1539622366184" duration="39000" />
       <workItem from="1539622714274" duration="534000" />
-      <workItem from="1539662636178" duration="19115000" />
+      <workItem from="1539662636178" duration="19986000" />
+      <workItem from="1539736311068" duration="1844000" />
     </task>
     <task id="LOCAL-00001" summary="完成cookie购物车">
       <created>1539270811979</created>
@@ -680,17 +566,31 @@
       <option name="project" value="LOCAL" />
       <updated>1539692451500</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="订单页优化2">
+      <created>1539693211060</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1539693211060</updated>
+    </task>
+    <task id="LOCAL-00031" summary="订单页优化3">
+      <created>1539693942252</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1539693942252</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290179000" />
+    <option name="totallyTimeSpent" value="292894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36353946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3672708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -722,8 +622,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成cookie购物车" />
-    <MESSAGE value="购物车供能实现" />
     <MESSAGE value="购物车页面完成" />
     <MESSAGE value="购物车基本功能完成" />
     <MESSAGE value="优化显示" />
@@ -747,7 +645,9 @@
     <MESSAGE value="设置支付密码" />
     <MESSAGE value="商品购买流程完成" />
     <MESSAGE value="修复订单页的异常显示" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复订单页的异常显示" />
+    <MESSAGE value="订单页优化2" />
+    <MESSAGE value="订单页优化3" />
+    <option name="LAST_COMMIT_MESSAGE" value="订单页优化3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vendor/topthink/think-captcha/src/Captcha.php">
@@ -816,13 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-end-line="24" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -928,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/geography/myaddress.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/widget/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -988,10 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
           <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#nav#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#nav#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,20 +919,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/order/addorder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="142" column="78" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/order/setpaypwd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="56" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1068,10 +940,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1459">
+          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-end-line="24" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/geography/myaddress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="480" column="19" lean-forward="true" selection-start-line="479" selection-start-column="12" selection-end-line="480" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/order/addorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="210" column="8" lean-forward="true" selection-start-line="210" selection-start-column="8" selection-end-line="212" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="405" column="23" selection-start-line="405" selection-start-column="23" selection-end-line="405" selection-end-column="23" />
+        <state relative-caret-position="659">
+          <caret line="438" column="15" lean-forward="true" selection-start-line="438" selection-start-column="15" selection-end-line="438" selection-end-column="15" />
           <folding>
             <element signature="e#123#149#0#PHP" expanded="true" />
           </folding>
@@ -1080,11 +973,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/order/orderlist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        <state relative-caret-position="633">
+          <caret line="227" column="5" lean-forward="true" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#5110#5117#1" expanded="true" />
           </folding>
         </state>
       </provider>

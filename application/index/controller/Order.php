@@ -390,7 +390,9 @@ class Order extends Shopping
                 //流水信息
                 'msg'=>'购买商品',
                 //用户id
-                'user_id'=>Session::get('user')
+                'user_id'=>Session::get('user'),
+                //时间
+                'create_time'=>time()
             ];
             $flow_sheet = new Flow_sheet();
             if(!$flow_sheet->insert($flow))
@@ -405,11 +407,35 @@ class Order extends Shopping
                 ]);
                 return;
             }
+
             echo json_encode([
                 'state'=>200,
                 'msg'=>'支付成功'
             ]);
             return;
         }
+    }
+
+    public function cancel($Id)
+    {
+        $model = new Order_book();
+        if(!$model->where([
+            'user_id'=>Session::get('user'),
+            'pay_state'=>0,
+            'Id'=>$Id,
+            'order_state'=>0
+        ])->update(['order_state'=>1]))
+        {
+            echo json_encode([
+                'state'=>400,
+                '取消失败,稍后再试'
+            ]);
+            return;
+        }
+        echo json_encode([
+            'state'=>200,
+            'msg'=>'订单已取消'
+        ]);
+        return;
     }
 }
