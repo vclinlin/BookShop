@@ -73,7 +73,7 @@ class Commodity extends Controller
         {
             //精确获取
             $book_data = $books->where(['item_class_id'=>$item_id])
-                ->paginate('1');
+                ->paginate('12');
         }else{
             //搜索,清除类别选择
             $class_id=0;
