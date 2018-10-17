@@ -15,13 +15,14 @@
         <!-- 商品检索 -->
     <ul class="navbar-nav">
         <li class="nav-item m-md-3">
-            <div class="input-group">
+            <form action="{:url('index/Commodity/allBooks')}"
+                 type="get" class="input-group">
                 <input type="text" class="form-control" placeholder="搜索商品"
-                       aria-label="Recipient's username" aria-describedby="basic-addon2">
+                       name="key" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <div class="input-group-append">
-                    <button class="btn btn-danger" type="button">搜索</button>
+                    <button class="btn btn-danger" type="submit">搜索</button>
                 </div>
-            </div>
+            </form>
         </li>
     </ul>
         <!-- 购物车 -->
@@ -38,13 +39,17 @@
         <div class="row navbar-nav">
             <div class="col-12 nav-item m-md-3">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="搜索商品"
-                           aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <input id="key" type="text" class="form-control" placeholder="搜索商品"
+                           aria-label="Recipient's username"
+                           aria-describedby="basic-addon2">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button">搜索</button>
+                        <button id="getKey" class="btn btn-outline-secondary" type="button">搜索</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </nav>
+<script>
+    
+</script>
