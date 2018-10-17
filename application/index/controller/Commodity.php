@@ -107,6 +107,7 @@ class Commodity extends Controller
         }
         $url = Admin_url::get(1)['url'];
         $this->assign('data',$data);
+        $this->assign('url',$url);
         return $this->fetch();
     }
 }

@@ -22,8 +22,48 @@
 </div>
 <!--nav预留位-->
 {:widget('widgets/main_nav')}
-<div class="container mt-3" style="min-height: 600px;">
-
+<div class="container border pt-3" style="min-height: 600px;">
+    <div class="row pb-3 border-bottom">
+        <div class="col-sm-3 d-flex justify-content-center p-2
+        align-items-center">
+            <img src="{$data.cover==''?'/default_cover/default_cover.png':$url.url.$data.cover}"
+                 class="img-fluid">
+        </div>
+        <div class="col-sm-7 d-flex flex-column">
+            <div class="row">
+                <div style="height: 50px;line-height: 50px;"
+                     class="bg-danger d-inline-flex text-white col-8">
+                    <strong>《{$data.bookname}》</strong>
+                </div>
+                <div class="col-4 bg-dark d-inline-flex text-white align-items-center">
+                    <strong>已售:{$data.sales}</strong>
+                </div>
+                <div class="col-12 mt-3">
+                    <dl>
+                        <dd>单价: ￥{$data.price}</dd>
+                        <dd>出版社: {$data.press}</dd>
+                        <dd>出版日期: {:date('Y-m-d',$data.r_time)}</dd>
+                    </dl>
+                    <div style="width:120px;" class="input-group input-group-sm mt-2">
+                        <div class="input-group-prepend">
+                            <button id="reduce" class="btn">-</button>
+                        </div>
+                        <input readonly id="sum" type="number" class="form-control text-center" value="1">
+                        <div class="input-group-append">
+                            <button id="plus" class="btn">+</button>
+                        </div>
+                    </div>
+                    <button id="purchase" class="btn btn-sm mt-2 btn-danger">立即购买</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-12 d-flex flex-column">
+            <label for="msg">商品简介:</label>
+            <textarea id="msg" style="overflow-y:visible" disabled rows="10"></textarea>
+        </div>
+    </div>
 </div>
 <div class="col-12 bg-dark">
     <div class="container">
@@ -32,4 +72,27 @@
         </div>
     </div>
 </div>
+<script>
+    $(function () {
+        $("#reduce").click(function () {
+            var key = Number($("#sum").val());
+            key>1?$("#sum").val(key-1):'';
+        });
+        $("#plus").click(function () {
+            var key = Number($("#sum").val());
+            key<10?$("#sum").val(key+1):'';
+        });
+        $("#purchase").click(function () {
+            var key = Number($("#sum").val());
+            if(key>10||key<1||!/^[0-9]{1,2}$/.test(key))
+            {
+                layer.msg('数据异常,刷新后再试',function () {
+                    window.location.reload();
+                })
+                return;
+            }
+            window.location.href="{:url('index/Order/addOrder')}?data={$data.Id}&count="+key;
+        });
+    })
+</script>
 {/block}
