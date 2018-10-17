@@ -57,7 +57,7 @@
                     {$class_data.Id==$class_id?'bg-primary':''}"
                        href="{:url('index/Commodity/allBooks',['class_id'=>$class_data.Id])}">{$class_data.name}</a>
                     {/if}
-            {if $key+1 == $class_sum }
+            {if $key+1 == $class_sum&&$key>=15 }
                 </div>
             </div>
             {/if}
@@ -101,7 +101,7 @@
                         {$item_data.name}
                     </a>
                     {/if}
-            {if $key+1 == $item_sum }
+            {if $key+1 == $item_sum&&$key>=15 }
                 </div>
             </div>
             {/if}
