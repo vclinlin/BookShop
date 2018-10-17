@@ -38,14 +38,14 @@
     <div class="container" id="ret_navs"><!-- 小屏内容 -->
         <div class="row navbar-nav">
             <div class="col-12 nav-item m-md-3">
-                <div class="input-group">
+                <form action="{:url('index/Commodity/allBooks')}" type="get" class="input-group">
                     <input id="key" type="text" class="form-control" placeholder="搜索商品"
                            aria-label="Recipient's username"
                            aria-describedby="basic-addon2">
                     <div class="input-group-append">
-                        <button id="getKey" class="btn btn-outline-secondary" type="button">搜索</button>
+                        <button id="getKey" class="btn btn-outline-secondary" type="submit">搜索</button>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
