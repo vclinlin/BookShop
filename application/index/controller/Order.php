@@ -350,6 +350,40 @@ class Order extends Shopping
                 ]);
                 return;
             }
+            //扣除商品数量
+            $bookIdAry = explode(',',$order['books_id']);
+            $bookSumAry = explode(',',$order['books_sum']);
+            $books_model = new Books();
+            $i = 0;
+            //验证数量
+            foreach ($bookIdAry as $item)
+            {
+                if(!$rel = $books_model->get(['Id'=>$item]))
+                {
+                    echo json_encode([
+                        'state'=>400,
+                        'msg'=>'订单存在已下架商品,不能结算'
+                    ]);
+                    return;
+                    break;
+                }
+                if($rel['count']-$rel['sales']<=0||$rel['count']-$rel['sales']<$bookSumAry[$i])
+                {
+                    echo json_encode([
+                        'state'=>400,
+                        'msg'=>'商品《'.$rel['bookname'].'》库存不足'
+                    ]);
+                    return;
+                    break;
+                }
+                $i++;
+            }
+            $i = 0;
+            foreach ($bookIdAry as $item)
+            {
+                $rel->where(['Id'=>$item])->setInc('sales',$bookSumAry[$i]);
+                $i++;
+            }
             //账户余额足够,扣除相应金额,更新订单状态
             $user_model = new Ordinary_users();
             if(!$user_model->where(['userid'=>Session::get('user')])

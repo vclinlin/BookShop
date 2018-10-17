@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="修复所有图书界面的bug2">
+    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="20181017">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/widget/retrieval.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/widget/retrieval.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/controller/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Order.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,9 +82,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
-          <entry key="html" value="89" />
+          <entry key="html" value="93" />
           <entry key="js" value="13" />
-          <entry key="php" value="35" />
+          <entry key="php" value="36" />
           <entry key="rnc" value="1" />
           <entry key="sql" value="1" />
         </counts>
@@ -92,27 +92,27 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="89" />
+          <entry key="HTML" value="93" />
           <entry key="JavaScript" value="13" />
-          <entry key="PHP" value="35" />
+          <entry key="PHP" value="36" />
           <entry key="RNG Compact" value="1" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="15409" />
+          <entry key="html" value="16408" />
           <entry key="js" value="71" />
-          <entry key="php" value="9813" />
-          <entry key="txt" value="312" />
+          <entry key="php" value="10199" />
+          <entry key="txt" value="334" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="15409" />
+          <entry key="HTML" value="16408" />
           <entry key="JavaScript" value="71" />
-          <entry key="PHP" value="9813" />
-          <entry key="PLAIN_TEXT" value="312" />
+          <entry key="PHP" value="10199" />
+          <entry key="PLAIN_TEXT" value="334" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -128,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/application/index/controller/Commodity.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="751">
-              <caret line="109" column="15" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
+              <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
               <folding>
                 <element signature="e#122#152#0#PHP" expanded="true" />
               </folding>
@@ -136,13 +136,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/view/commodity/details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="529">
+              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="631">
+              <caret line="384" column="21" lean-forward="true" selection-start-line="384" selection-start-column="21" selection-end-line="384" selection-end-column="21" />
+              <folding>
+                <element signature="e#123#149#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,7 +219,6 @@
         <option value="$PROJECT_DIR$/application/index/model/Flow_sheet.php" />
         <option value="$PROJECT_DIR$/application/index/view/order/addorder.html" />
         <option value="$PROJECT_DIR$/application/index/view/order/orderlist.html" />
-        <option value="$PROJECT_DIR$/application/index/controller/Order.php" />
         <option value="$PROJECT_DIR$/application/index/view/order/hotbooks.html" />
         <option value="$PROJECT_DIR$/application/index/view/widget/main_nav.html" />
         <option value="$PROJECT_DIR$/application/index/view/mobilewidgets/mobileclass.html" />
@@ -214,9 +228,10 @@
         <option value="$PROJECT_DIR$/application/index/view/commodity/newbooks.html" />
         <option value="$PROJECT_DIR$/application/index/view/commodity/allbooks.html" />
         <option value="$PROJECT_DIR$/application/index/view/commodity/hotbooks.html" />
+        <option value="$PROJECT_DIR$/application/index/view/widget/retrieval.html" />
         <option value="$PROJECT_DIR$/application/index/controller/Commodity.php" />
         <option value="$PROJECT_DIR$/application/index/view/commodity/details.html" />
-        <option value="$PROJECT_DIR$/application/index/view/widget/retrieval.html" />
+        <option value="$PROJECT_DIR$/application/index/controller/Order.php" />
       </list>
     </option>
   </component>
@@ -324,6 +339,14 @@
               <item name="index" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
@@ -446,7 +469,7 @@
       <workItem from="1539622714274" duration="534000" />
       <workItem from="1539662636178" duration="19986000" />
       <workItem from="1539736311068" duration="12621000" />
-      <workItem from="1539752135706" duration="11222000" />
+      <workItem from="1539752135706" duration="15957000" />
     </task>
     <task id="LOCAL-00001" summary="完成cookie购物车">
       <created>1539270811979</created>
@@ -700,17 +723,31 @@
       <option name="project" value="LOCAL" />
       <updated>1539763076610</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="完善搜索框">
+      <created>1539763387568</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1539763387568</updated>
+    </task>
+    <task id="LOCAL-00038" summary="20181017">
+      <created>1539767113341</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1539767113341</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314893000" />
+    <option name="totallyTimeSpent" value="319628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37153518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
@@ -743,8 +780,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="购物车单个商品删除完成" />
-    <MESSAGE value="新增清空购物车" />
     <MESSAGE value="购物车结算" />
     <MESSAGE value="购物车结算优化" />
     <MESSAGE value="添加立即购买" />
@@ -768,7 +803,9 @@
     <MESSAGE value="完成pc全商品展示2" />
     <MESSAGE value="修复所有图书界面的bug" />
     <MESSAGE value="修复所有图书界面的bug2" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复所有图书界面的bug2" />
+    <MESSAGE value="完善搜索框" />
+    <MESSAGE value="20181017" />
+    <option name="LAST_COMMIT_MESSAGE" value="20181017" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/application/index/model/Shopping_cart.php">
@@ -960,34 +997,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1459">
-          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-end-line="24" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/geography/myaddress.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="480" column="19" lean-forward="true" selection-start-line="479" selection-start-column="12" selection-end-line="480" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/order/addorder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="210" column="8" lean-forward="true" selection-start-line="210" selection-start-column="8" selection-end-line="212" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="438" column="15" lean-forward="true" selection-start-line="438" selection-start-column="15" selection-end-line="438" selection-end-column="15" />
-          <folding>
-            <element signature="e#123#149#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,16 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/widget/newbook.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/commodity/pricebooks.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -1108,16 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Commodity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="109" column="15" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
-          <folding>
-            <element signature="e#122#152#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/widget/retrieval.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -1125,12 +1118,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Commodity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+          <folding>
+            <element signature="e#122#152#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/order/addorder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4446">
+          <caret line="210" column="8" lean-forward="true" selection-start-line="210" selection-start-column="8" selection-end-line="212" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/shopping/shoppingcart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="57" column="78" lean-forward="true" selection-start-line="57" selection-start-column="78" selection-end-line="57" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/widget/newbook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="28" column="128" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="128" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/commodity/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="529">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="384" column="21" lean-forward="true" selection-start-line="384" selection-start-column="21" selection-end-line="384" selection-end-column="21" />
+          <folding>
+            <element signature="e#123#149#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
