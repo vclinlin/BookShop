@@ -1,0 +1,35 @@
+{extend name="layout"/}
+
+{block name="title"}<title>商品详情</title>{/block}
+
+{block name="static"}
+<link rel="stylesheet" href="__CSS__/index/index.css">
+{/block}
+
+{block name="body"}
+<!-- 头部 -->
+<div class="container-fluid bg-light">
+    <div class="col-12 bg-light">
+        <!--顶部菜单-->
+        {:widget('widgets/head_nav')}
+    </div>
+    <div class="row">
+        <div class="col-12 bg-white">
+            <!--搜索预留位-->
+            {:widget('widgets/retrieval')}
+        </div>
+    </div>
+</div>
+<!--nav预留位-->
+{:widget('widgets/main_nav')}
+<div class="container mt-3" style="min-height: 600px;">
+
+</div>
+<div class="col-12 bg-dark">
+    <div class="container">
+        <div class="row">
+            {:widget('Widgets/about')}
+        </div>
+    </div>
+</div>
+{/block}

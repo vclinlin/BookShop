@@ -96,4 +96,17 @@ class Commodity extends Controller
         $this->assign('data',$book_data);
         return $this->fetch();
     }
+
+    public function details($id)
+    {
+        $books = new Books();
+        if(!$data = $books->get(['Id'=>$id]))
+        {
+            $this->error('该图书已下架','/');
+            return;
+        }
+        $url = Admin_url::get(1)['url'];
+        $this->assign('data',$data);
+        return $this->fetch();
+    }
 }
