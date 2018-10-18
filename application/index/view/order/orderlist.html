@@ -81,7 +81,9 @@
                         {if $order_data.order_state==3}
                         订单异常
                         {/if}
-                    未支付
+                        {if $order_data.order_state==0}
+                        未支付
+                        {/if}
                     {/if}
                     {/if}
                     .....
@@ -152,10 +154,12 @@
                                     {if $order_data.order_state==3}
                                     <button class="btn disabled btn-sm btn-danger">订单异常</button>
                                     {/if}
-                                <div class="btn-group btn-group-sm">
-                                    <button onclick="Pay({$order_data.Id})" class="btn btn-sm btn-danger">待支付</button>
-                                    <button onclick="cancel({$order_data.Id})" class="btn btn-sm btn-primary">取消</button>
-                                </div>
+                                    {if $order_data.order_state==0}
+                                    <div class="btn-group btn-group-sm">
+                                        <button onclick="Pay({$order_data.Id})" class="btn btn-sm btn-danger">待支付</button>
+                                        <button onclick="cancel({$order_data.Id})" class="btn btn-sm btn-primary">取消</button>
+                                    </div>
+                                    {/if}
                                 {/if}
                             {/if}
                         </div>
