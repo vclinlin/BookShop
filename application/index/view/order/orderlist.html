@@ -116,10 +116,10 @@
                                 </div>
                                 {/if}
                                 {if $order_data.order_state==1}
-                                <button class="btn btn-sm btn-light">已取消</button>
+                                <button class="btn disabled btn-sm btn-light">已取消</button>
                                 {/if}
                                 {if $order_data.order_state==3}
-                                <button class="btn btn-sm btn-danger">订单异常</button>
+                                <button class="btn disabled btn-sm btn-danger">订单异常</button>
                                 {/if}
                                 {if $order_data.order_state==4}
                                 <button class="btn btn-sm btn-success">查看物流</button>
@@ -129,24 +129,28 @@
                                 {if $order_data.pay_state == 1}
                                 <!-- 已支付 -->
                                     {if $order_data.order_state==0}
-                                    <button class="btn btn-sm btn-success">待发货</button>
+                                    <button class="btn disabled btn-sm btn-success">待发货</button>
                                     {/if}
                                     {if $order_data.order_state==3}
-                                    <button class="btn btn-sm btn-success">已完成</button>
+                                    <button class="btn  btn-sm btn-success">已完成</button>
                                     {/if}
                                     {if $order_data.order_state==4}
-                                    <button class="btn btn-sm btn-success">查看物流</button>
+                                    <div class="btn-group btn-group-sm">
+                                        <button class="btn btn-sm btn-success">查看物流</button>
+                                        <button class="btn btn-sm btn-danger"
+                                                onclick="confirmCollect({$order_data.Id})">确认收货</button>
+                                    </div>
                                     {/if}
                                 {else}
                                 <!-- 未支付 -->
                                     {if $order_data.order_state==1}
-                                    <button class="btn btn-sm btn-light">已取消</button>
+                                    <button class="btn disabled btn-sm btn-light">已取消</button>
                                     {/if}
                                     {if $order_data.order_state==2}
                                     <button class="btn btn-sm btn-light">于({:date('Y-m-d H:i:s',strtotime($order_data.create_time)+600)})已过期</button>
                                     {/if}
                                     {if $order_data.order_state==3}
-                                    <button class="btn btn-sm btn-danger">订单异常</button>
+                                    <button class="btn disabled btn-sm btn-danger">订单异常</button>
                                     {/if}
                                 <div class="btn-group btn-group-sm">
                                     <button onclick="Pay({$order_data.Id})" class="btn btn-sm btn-danger">待支付</button>
@@ -287,9 +291,14 @@
                     return;
                 }
             }, 'json');
-        },function () {
-            return false;
         });
+    }
+    //在线单的确认收货
+    function confirmCollect(id) {
+        layer.confirm('确定已收货?',function () {
+            $.get('{:url("index/Order/confirmCollect")}',{id},function (res) {
+            },'json');
+        })
     }
 </script>
 {/block}

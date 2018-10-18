@@ -472,4 +472,28 @@ class Order extends Shopping
         ]);
         return;
     }
+
+    public function confirmCollect($id)
+    {
+        $model = new Order_book();
+        if(!$model->where([
+            'user_id'=>Session::get('user'),
+            'Id'=>$id,
+            'order_state'=>4,
+            'pay'=>0,
+            'pay_state'=>1
+        ])->update(['order_state'=>3]))
+        {
+            echo json_encode([
+                'state'=>400,
+                '还未发货,或订单错误'
+            ]);
+            return;
+        }
+        echo json_encode([
+            'state'=>200,
+            'msg'=>'已收货'
+        ]);
+        return;
+    }
 }
