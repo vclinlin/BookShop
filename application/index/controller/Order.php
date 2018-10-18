@@ -106,10 +106,10 @@ class Order extends Shopping
         }
     }
     protected function checkOrder(){
-        //清理过期订单
+        //清理过期未支付的在线订单
         $model = new Order_book();
         $model->where('create_time','<',time()-600)
-            ->where(['pay_state'=>0,'order_state'=>0])->update(['order_state'=>2]);
+            ->where(['pay_state'=>0,'order_state'=>0,'pay'=>0])->update(['order_state'=>2]);
     }
     public function addOrder($data,$count=0){
         //获取购物车数据

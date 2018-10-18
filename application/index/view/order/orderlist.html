@@ -42,8 +42,49 @@
                 <strong>订单编号:{$order_data.order_number}
                     <span class="text-danger">(￥{$order_data.money})</span>
                 </strong>
-                <a class="card-link" data-toggle="collapse" href="#collapseOne{$key}">
-                    {$order_data.pay_state==0&&$order_data.order_state == 0?"待支付":"详情"}.....
+                <a class="card-link d-inline-flex" data-toggle="collapse" href="#collapseOne{$key}">
+                    {if $order_data.pay == 1 && $order_data.pay_state == 0}
+                    <!-- 货到单 -->
+                    {if $order_data.order_state==0}
+                    待发货
+                    {/if}
+                    {if $order_data.order_state==1}
+                    已取消
+                    {/if}
+                    {if $order_data.order_state==3}
+                    订单异常
+                    {/if}
+                    {if $order_data.order_state==4}
+                    查看物流
+                    {/if}
+                    {else}
+                    <!-- 在线单 -->
+                    {if $order_data.pay_state == 1}
+                    <!-- 已支付 -->
+                        {if $order_data.order_state==0}
+                        待发货
+                        {/if}
+                        {if $order_data.order_state==3}
+                        已完成
+                        {/if}
+                        {if $order_data.order_state==4}
+                        查看物流
+                        {/if}
+                    {else}
+                    <!-- 未支付 -->
+                        {if $order_data.order_state==1}
+                        已取消
+                        {/if}
+                        {if $order_data.order_state==2}
+                        已过期
+                        {/if}
+                        {if $order_data.order_state==3}
+                        订单异常
+                        {/if}
+                    未支付
+                    {/if}
+                    {/if}
+                    .....
                 </a>
             </div>
             <div id="collapseOne{$key}" class="collapse {$key == 0?'show':''}" data-parent="#accordion">
@@ -66,26 +107,50 @@
                     <div class="row">
                         <div class="col-12 mt-1 d-inline-flex justify-content-end
                         align-items-center">
-                            {if $order_data.pay_state == 1}
-                                {if $order_data.order_state==3}
-                                    <button class="btn btn-sm btn-success">已完成</button>
-                                {else}
-                                    <button onclick="logistics({$order_data.Id})" class="btn btn-sm btn-success">查看物流</button>
-                                {/if}
-                            {else}
-                                {if $order_data.order_state==3}
-                                <button class="btn btn-sm btn-danger">订单异常</button>
-                                {/if}
-                                {if $order_data.order_state==2}
-                                <button class="btn btn-sm btn-light">于({:date('Y-m-d H:i:s',strtotime($order_data.create_time)+600)})已过期</button>
+                            {if $order_data.pay == 1 && $order_data.pay_state == 0}
+                            <!-- 货到单 -->
+                                {if $order_data.order_state==0}
+                                <div class="btn-group btn-group-sm">
+                                    <button class="btn btn-sm btn-success">待发货</button>
+                                    <button onclick="cancel({$order_data.Id})" class="btn btn-sm btn-primary">取消</button>
+                                </div>
                                 {/if}
                                 {if $order_data.order_state==1}
                                 <button class="btn btn-sm btn-light">已取消</button>
                                 {/if}
-                                {if $order_data.order_state==0}
+                                {if $order_data.order_state==3}
+                                <button class="btn btn-sm btn-danger">订单异常</button>
+                                {/if}
+                                {if $order_data.order_state==4}
+                                <button class="btn btn-sm btn-success">查看物流</button>
+                                {/if}
+                            {else}
+                            <!-- 在线单 -->
+                                {if $order_data.pay_state == 1}
+                                <!-- 已支付 -->
+                                    {if $order_data.order_state==0}
+                                    <button class="btn btn-sm btn-success">待发货</button>
+                                    {/if}
+                                    {if $order_data.order_state==3}
+                                    <button class="btn btn-sm btn-success">已完成</button>
+                                    {/if}
+                                    {if $order_data.order_state==4}
+                                    <button class="btn btn-sm btn-success">查看物流</button>
+                                    {/if}
+                                {else}
+                                <!-- 未支付 -->
+                                    {if $order_data.order_state==1}
+                                    <button class="btn btn-sm btn-light">已取消</button>
+                                    {/if}
+                                    {if $order_data.order_state==2}
+                                    <button class="btn btn-sm btn-light">于({:date('Y-m-d H:i:s',strtotime($order_data.create_time)+600)})已过期</button>
+                                    {/if}
+                                    {if $order_data.order_state==3}
+                                    <button class="btn btn-sm btn-danger">订单异常</button>
+                                    {/if}
                                 <div class="btn-group btn-group-sm">
-                                <button onclick="Pay({$order_data.Id})" class="btn btn-sm btn-danger">待支付</button>
-                                <button onclick="cancel({$order_data.Id})" class="btn btn-sm btn-primary">取消</button>
+                                    <button onclick="Pay({$order_data.Id})" class="btn btn-sm btn-danger">待支付</button>
+                                    <button onclick="cancel({$order_data.Id})" class="btn btn-sm btn-primary">取消</button>
                                 </div>
                                 {/if}
                             {/if}
