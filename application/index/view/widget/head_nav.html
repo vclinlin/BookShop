@@ -30,6 +30,7 @@
                 </li>
                 {/if}
                 <!-- Dropdown -->
+                {if $data.state == 1}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="javascript:" id="navbardrop"
                        data-toggle="dropdown">个人中心
@@ -40,16 +41,15 @@
                         </a>
                         <a class="dropdown-item" href='{:url("index/Geography/myAddress")}'>收货地址</a>
                         <a class="dropdown-item" href="{:url('index/Order/setPayPwd')}">支付密码</a>
-                        <a class="dropdown-item" href="#">我的消息</a>
-                        <a class="dropdown-item" href="#">商品评价</a>
-                        <a class="dropdown-item" href="#">商品咨询</a>
-                        <a class="dropdown-item" href="#">账户金额</a>
+                        <a class="dropdown-item"
+                           onclick="layer.alert('余额:{$data.user_money==""?"0":$data.user_money}元')">账户余额</a>
                         <a class="dropdown-item" href="#">账户安全</a>
                         {if $data.state == 1}
                         <a class="dropdown-item" href="{:url('index/index/exitUser')}">退出登录</a>
                         {/if}
                     </div>
                 </li>
+                {/if}
             </ul>
         </div>
     </div>

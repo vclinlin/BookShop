@@ -124,7 +124,8 @@
                                 <button class="btn disabled btn-sm btn-danger">订单异常</button>
                                 {/if}
                                 {if $order_data.order_state==4}
-                                <button class="btn btn-sm btn-success">查看物流</button>
+                                <button class="btn btn-sm btn-success"  onclick="layer.alert('物流单号:'+'{$order_data.express}')"
+                                >查看物流</button>
                                 {/if}
                             {else}
                             <!-- 在线单 -->
@@ -138,7 +139,8 @@
                                     {/if}
                                     {if $order_data.order_state==4}
                                     <div class="btn-group btn-group-sm">
-                                        <button class="btn btn-sm btn-success">查看物流</button>
+                                        <button class="btn btn-sm btn-success" onclick="layer.alert('物流单号:'+'{$order_data.express}')"
+                                        >查看物流</button>
                                         <button class="btn btn-sm btn-danger"
                                                 onclick="confirmCollect({$order_data.Id})">确认收货</button>
                                     </div>

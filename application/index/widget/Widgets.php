@@ -57,7 +57,8 @@ class Widgets extends Controller
             $rel = $model->get($data);
             if($rel){
                 //登陆过    状态为1,传递用户名
-                $this->assign('data',['state'=>1,'name'=>$rel['username']]);
+                $this->assign('data',['state'=>1,'name'=>$rel['username']
+                    ,'user_money'=>$rel['user_money']]);
             }else{
                 $this->assign('data',['state'=>0]);
             }
