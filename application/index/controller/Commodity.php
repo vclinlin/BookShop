@@ -49,6 +49,7 @@ class Commodity extends Controller
 
     public function allBooks($class_id=null,$item_id=null,$key=null)
     {
+
         $book_class = new Book_class();
         $class_data = $book_class->order('Id','asc')->select();
         //没有选择分类
@@ -82,6 +83,8 @@ class Commodity extends Controller
                 ->where('bookname|press','like','%'.$key.'%')
                 ->paginate('12');
         }
+        //后台链接
+        $this->assign('url',Admin_url::get(['Id'=>1]));
         //子类数据
         $this->assign('item_sum',count($item_data));
         $this->assign('item_data',$item_data);
