@@ -43,7 +43,7 @@
                         <a class="dropdown-item" href="{:url('index/Order/setPayPwd')}">支付密码</a>
                         <a class="dropdown-item"
                            onclick="layer.alert('余额:{$data.user_money==""?"0":$data.user_money}元')">账户余额</a>
-                        <a class="dropdown-item" href="#">账户安全</a>
+                        <a class="dropdown-item" onclick="layer.alert('请添加微信TYL745730进行充值')">账户充值</a>
                         {if $data.state == 1}
                         <a class="dropdown-item" href="{:url('index/index/exitUser')}">退出登录</a>
                         {/if}
